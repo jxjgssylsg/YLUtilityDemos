@@ -40,10 +40,19 @@
     // [self creatUITableViewThree];
     // [self creatUITableViewFour];
     // [self creatUITableViewFive];
-     [self creatUITableViewSix];
+    // [self creatUITableViewSix];
     // [self creatUITableViewSeven];
     
 }
+
+- (void)creatUIScrollViewOne {
+    ScrollViewControllerOne *scrollViewOne = [[ScrollViewControllerOne alloc] init];
+    [scrollViewOne.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
+    
+    [self addChildViewController:scrollViewOne];
+    [self.view addSubview:scrollViewOne.view];
+}
+
 - (void)creatUITableViewSeven {
     TableViewControllerSeven *tableViewSeven = [[TableViewControllerSeven alloc] init];
     [tableViewSeven.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];

@@ -70,7 +70,14 @@
 // 方法17:自定义 TableViewcell 侧滑多按钮等功能
 - (void)creatUITableViewSeven;
 
+// 方法18:UIScrollView 的基本功能
+- (void)creatUIScrollViewOne;
 
+// 方法19:通过 UIView 的旋转,放大,移动
+- (void)creatUIScrollViewTwo;
+
+// 方法20:UIScrollView 的循环图片浏览器
+- (void)creatUIScrollViewThree;
 
 
 

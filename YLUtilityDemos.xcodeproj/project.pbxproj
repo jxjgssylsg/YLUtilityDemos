@@ -21,6 +21,10 @@
 		C380087D1CC7717D0080E63B /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C380087C1CC7717D0080E63B /* YLViewController.m */; };
 		C38008801CC7717D0080E63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C380087E1CC7717D0080E63B /* Main.storyboard */; };
 		C38008821CC7717D0080E63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38008811CC7717D0080E63B /* Assets.xcassets */; };
+		C390BD4C1DBC9B9A006A922B /* ScrollViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BD461DBC9B9A006A922B /* ScrollViewControllerOne.m */; };
+		C390BD4D1DBC9B9A006A922B /* ScrollViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BD481DBC9B9A006A922B /* ScrollViewControllerTwo.m */; };
+		C390BD4E1DBC9B9A006A922B /* ScrollViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BD4A1DBC9B9A006A922B /* ScrollViewControllerThree.m */; };
+		C390BD4F1DBC9B9A006A922B /* imageInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C390BD4B1DBC9B9A006A922B /* imageInfo.plist */; };
 		C3EE398F1D27C0500023BB97 /* TableViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */; };
 		C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39921D27C4AE0023BB97 /* TableViewControllerTwo.m */; };
 		C3EE39971D29FD750023BB97 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39961D29FD750023BB97 /* TableViewControllerThree.m */; };
@@ -65,6 +69,13 @@
 		C380087F1CC7717D0080E63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C38008811CC7717D0080E63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C38008861CC7717D0080E63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C390BD451DBC9B9A006A922B /* ScrollViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewControllerOne.h; sourceTree = "<group>"; };
+		C390BD461DBC9B9A006A922B /* ScrollViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewControllerOne.m; sourceTree = "<group>"; };
+		C390BD471DBC9B9A006A922B /* ScrollViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewControllerTwo.h; sourceTree = "<group>"; };
+		C390BD481DBC9B9A006A922B /* ScrollViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewControllerTwo.m; sourceTree = "<group>"; };
+		C390BD491DBC9B9A006A922B /* ScrollViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewControllerThree.h; sourceTree = "<group>"; };
+		C390BD4A1DBC9B9A006A922B /* ScrollViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewControllerThree.m; sourceTree = "<group>"; };
+		C390BD4B1DBC9B9A006A922B /* imageInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = imageInfo.plist; sourceTree = "<group>"; };
 		C3EE398D1D27C0500023BB97 /* TableViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerOne.h; sourceTree = "<group>"; };
 		C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerOne.m; sourceTree = "<group>"; };
 		C3EE39911D27C4AE0023BB97 /* TableViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerTwo.h; sourceTree = "<group>"; };
@@ -116,6 +127,7 @@
 		C3033CBC1CD0A2AB00B56597 /* Method-1~100 */ = {
 			isa = PBXGroup;
 			children = (
+				C390BD441DBC9B55006A922B /* Method-19 */,
 				C3664DDB1D30DAA900D29182 /* Method-18 */,
 				C3EE39B01D2A06310023BB97 /* Method-17 */,
 				C3EE39AF1D2A035D0023BB97 /* Method-16 */,
@@ -220,6 +232,20 @@
 				C3033CC11CD0A90000B56597 /* zhifubao.png */,
 			);
 			name = "图片资源(尽量复用)";
+			sourceTree = "<group>";
+		};
+		C390BD441DBC9B55006A922B /* Method-19 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BD451DBC9B9A006A922B /* ScrollViewControllerOne.h */,
+				C390BD461DBC9B9A006A922B /* ScrollViewControllerOne.m */,
+				C390BD471DBC9B9A006A922B /* ScrollViewControllerTwo.h */,
+				C390BD481DBC9B9A006A922B /* ScrollViewControllerTwo.m */,
+				C390BD491DBC9B9A006A922B /* ScrollViewControllerThree.h */,
+				C390BD4A1DBC9B9A006A922B /* ScrollViewControllerThree.m */,
+				C390BD4B1DBC9B9A006A922B /* imageInfo.plist */,
+			);
+			name = "Method-19";
 			sourceTree = "<group>";
 		};
 		C3EE398C1D27BFF00023BB97 /* Method-11 */ = {
@@ -368,6 +394,7 @@
 				C34FEB161D10EB3F006E6A51 /* 1.png in Resources */,
 				C3EE39AE1D2A03280023BB97 /* 10.png in Resources */,
 				C34FEB1B1D10EB3F006E6A51 /* 6.png in Resources */,
+				C390BD4F1DBC9B9A006A922B /* imageInfo.plist in Resources */,
 				C34FEB171D10EB3F006E6A51 /* 2.png in Resources */,
 				C34FEB181D10EB3F006E6A51 /* 3.png in Resources */,
 				C34FEB1A1D10EB3F006E6A51 /* 5.png in Resources */,
@@ -390,6 +417,8 @@
 				C3EE39C81D2A0BFF0023BB97 /* TableViewControllerSeven.m in Sources */,
 				C3EE39C01D2A06560023BB97 /* DataModelFrame.m in Sources */,
 				C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */,
+				C390BD4C1DBC9B9A006A922B /* ScrollViewControllerOne.m in Sources */,
+				C390BD4D1DBC9B9A006A922B /* ScrollViewControllerTwo.m in Sources */,
 				C3EE39A41D2A01F40023BB97 /* CustomCell.m in Sources */,
 				C3EE39BD1D2A06560023BB97 /* CustomCellForCode.m in Sources */,
 				C3EE39CA1D2A0BFF0023BB97 /* ScrollViewSeven.m in Sources */,
@@ -404,6 +433,7 @@
 				C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */,
 				C3EE39BE1D2A06560023BB97 /* DataModel.m in Sources */,
 				C3EE39BC1D2A06560023BB97 /* TableViewControllerSix.m in Sources */,
+				C390BD4E1DBC9B9A006A922B /* ScrollViewControllerThree.m in Sources */,
 				C38008771CC7717D0080E63B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
