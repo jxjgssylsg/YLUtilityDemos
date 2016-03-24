@@ -16,6 +16,9 @@
 #import "TableViewControllerFive.h"
 #import "TableViewControllerSix.h"
 #import "TableViewControllerSeven.h"
+#import "ScrollViewControllerOne.h"
+#import "ScrollViewControllerTwo.h"
+#import "ScrollViewControllerThree.h"
 
 @interface YLViewController ()
 
@@ -42,6 +45,45 @@
     // [self creatUITableViewFive];
     // [self creatUITableViewSix];
     // [self creatUITableViewSeven];
+    // [self creatUIScrollViewOne];
+    // [self creatUIScrollViewTwo];
+    // [self creatUIScrollViewThree];
+    // [self creatNavVCOne];
+    // [self creatNavVCTwo];
+    // [self creatNavVCThree];
+    // [self creatTabbarVCOne];
+    // [self creatTabbarVCTwo];
+    // [self testNSTimer];
+    // [self testMasonryOne];
+    // [self testMasonryTwo];
+    // [self testMasonryThree];
+    // [self testMasonryFour];
+    // [self testMasonryFive];
+    // [self testMasonrySix];
+    // [self creatUICollectionViewOne];
+    // [self creatUICollectionViewTwo];
+    // [self creatUICollectionViewThree];
+    // [self creatUICollectionViewFour];
+    // [self creatUICollectionViewFive];
+    // [self testPthread];
+    // [self testNSThread];
+    // [self testGCD];
+    // [self testNSOperation];
+    // [self testRuntime];
+    // [self testRuntimeTwo];
+    // [self testKVC];
+    // [self testKVO];
+    // [self testKVOTwo];
+    // [self testRunLoop];
+    // [self testNotificationCenter];
+    // [self testNotificationCenterMultiThread];
+    // [self testLocalNotification];
+    // [self testRemoteNotification];
+    // [self testNSUserDefaults];
+    // [self testNSCoding];
+    // [self testSQLite];
+    // [self testFMDB];
+    // [self testCoreData];
     
 }
 
