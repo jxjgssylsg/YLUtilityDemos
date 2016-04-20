@@ -6,22 +6,31 @@
 //  Copyright © 2016年 yilin. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "YLViewController.h"
 
-@interface ViewController ()
+@interface YLViewController ()
+
+//测试一下boundingRectWithSize方法
+- (void)testBoundingRectWithSizeMethods;
 
 @end
 
-@implementation ViewController
+@implementation YLViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)testBoundingRectWithSizeMethods
+{
+    
 }
 
 @end
