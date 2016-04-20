@@ -13,6 +13,7 @@
 		C38008801CC7717D0080E63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C380087E1CC7717D0080E63B /* Main.storyboard */; };
 		C38008821CC7717D0080E63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38008811CC7717D0080E63B /* Assets.xcassets */; };
 		C38008851CC7717D0080E63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38008831CC7717D0080E63B /* LaunchScreen.storyboard */; };
+		C380088D1CC776870080E63B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C380088C1CC776870080E63B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C38008811CC7717D0080E63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C38008841CC7717D0080E63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C38008861CC7717D0080E63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C380088C1CC776870080E63B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +60,8 @@
 		C38008741CC7717D0080E63B /* YLUtilityDemos */ = {
 			isa = PBXGroup;
 			children = (
-				C38008781CC7717D0080E63B /* AppDelegate.h */,
-				C38008791CC7717D0080E63B /* AppDelegate.m */,
-				C380087B1CC7717D0080E63B /* YLViewController.h */,
-				C380087C1CC7717D0080E63B /* YLViewController.m */,
-				C380087E1CC7717D0080E63B /* Main.storyboard */,
-				C38008811CC7717D0080E63B /* Assets.xcassets */,
-				C38008831CC7717D0080E63B /* LaunchScreen.storyboard */,
-				C38008861CC7717D0080E63B /* Info.plist */,
+				C380088E1CC77BBE0080E63B /* 初始文件 */,
+				C380088C1CC776870080E63B /* README.md */,
 				C38008751CC7717D0080E63B /* Supporting Files */,
 			);
 			path = YLUtilityDemos;
@@ -77,6 +73,21 @@
 				C38008761CC7717D0080E63B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C380088E1CC77BBE0080E63B /* 初始文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C38008781CC7717D0080E63B /* AppDelegate.h */,
+				C38008791CC7717D0080E63B /* AppDelegate.m */,
+				C380087B1CC7717D0080E63B /* YLViewController.h */,
+				C380087C1CC7717D0080E63B /* YLViewController.m */,
+				C380087E1CC7717D0080E63B /* Main.storyboard */,
+				C38008811CC7717D0080E63B /* Assets.xcassets */,
+				C38008831CC7717D0080E63B /* LaunchScreen.storyboard */,
+				C38008861CC7717D0080E63B /* Info.plist */,
+			);
+			name = "初始文件";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			files = (
 				C380087D1CC7717D0080E63B /* YLViewController.m in Sources */,
 				C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */,
+				C380088D1CC776870080E63B /* README.md in Sources */,
 				C38008771CC7717D0080E63B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
