@@ -2,7 +2,7 @@
 //  ViewController.m
 //  YLUtilityDemos
 //
-//  Created by mingdffe on 16/4/20.
+//  Created by yilin on 16/4/20.
 //  Copyright © 2016年 yilin. All rights reserved.
 //
 
@@ -10,16 +10,14 @@
 
 @interface YLViewController ()
 
-//方法1:测试boundingRectWithSize方法
-- (void)testBoundingRectWithSizeMethods;
-
 @end
 
 @implementation YLViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self testBoundingRectWithSizeMethods];
+   //[self testBoundingRectWithSizeMethods];
+    [self testNSDictionary];
     
 }
 
@@ -45,6 +43,62 @@
     lbTemp.frame = CGRectMake(50, 50, rect.size.width, rect.size.height);
     lbTemp.attributedText = attrStr;
     
+}
+
+- (void)testNSDictionary
+{
+    NSDictionary *dicOne = [NSDictionary dictionaryWithObject: @"hello"  forKey:@"key"];
+    NSString *dicOneValue = dicOne[@"key"];
+    
+    NSDictionary *dicTwo = [NSDictionary dictionaryWithObjectsAndKeys:
+                         @"Kate", @"name",
+                         @"080-123-456", @"tel",
+                         @"東京都", @"address",nil];
+    
+    NSArray *key = [NSArray arrayWithObjects:@"name", @"tel", @"address", nil];
+    NSArray *value = [NSArray arrayWithObjects:@"Kate", @"080-123-456", @"中国", nil];
+    NSDictionary *dicThree = [NSDictionary dictionaryWithObjects:value
+                                                         forKeys:key];
+    int count = [dicThree count];
+    NSArray *allKey = [dicThree allKeys];
+    NSArray *allValue = [dicThree allValues];
+    BOOL isEqual = [dicThree isEqualToDictionary:dicTwo]; //两个字典是否相等
+    //遍历
+    for(NSString *key in dicThree)
+    {
+        NSLog(@"key:%@ value:%@",key,dicThree[key]);
+    }
+    
+    NSDictionary *dictFour = @{@"name":@"Kate", @"tel":@"080-123-456",@"address":@"中国"};
+    [dictFour enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        NSLog(@"key:%@ value:%@",key,obj);
+    }];
+    
+    //NSMutableDictionary 简单使用
+    NSMutableDictionary *dictFive = [NSMutableDictionary dictionary];
+    //像字典中追加一个新的 key5 和 value5
+    [dictFive setObject:@"value5" forKey:@"key5"];
+    [dictFive addEntriesFromDictionary:dicThree];
+    for(NSString *key in dictFive)
+    {
+        NSLog(@"key:%@ value:%@",key,dictFive[key]);
+    }
+    //将字典5的对象内容设置与字典1的对象内容相同
+    [dictFive setDictionary:dicThree];
+    for(NSString *key in dictFive)
+    {
+        NSLog(@"key:%@ value:%@",key,dictFive[key]);
+    }
+    //删除键所对应的键值对
+    [dictFive removeObjectForKey:@"name"];
+    //修改key对应的value的值
+    dictFive[@"address"] = @"beijing";
+    //删除数组中的所有key 对应的键值对
+    NSArray *array = @[@"tel",@"address",@"key3"];
+    [dictFive removeObjectsForKeys:array];
+    //移除字典中的所有对象
+    [dictFive removeAllObjects];
+
 }
 
 - (void)didReceiveMemoryWarning {
