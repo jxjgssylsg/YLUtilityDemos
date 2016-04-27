@@ -7,6 +7,7 @@
 //
 
 #import "YLViewController.h"
+#import "QREncoding.h"
 
 @interface YLViewController ()
 
@@ -16,12 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   //[self testBoundingRectWithSizeMethods];
-    [self testNSDictionary];
+    [self creatQRCode_2016_4_27];
     
 }
 
-- (void)testBoundingRectWithSizeMethods
+- (void)testBoundingRectWithSizeMethods_2016_3_27
 {
     
     UILabel *lbTemp =[[UILabel alloc] initWithFrame:CGRectMake(20, 20, 100, 700)];
@@ -45,7 +45,7 @@
     
 }
 
-- (void)testNSDictionary
+- (void)testNSDictionary_2016_4_3
 {
     NSDictionary *dicOne = [NSDictionary dictionaryWithObject: @"hello"  forKey:@"key"];
     NSString *dicOneValue = dicOne[@"key"];
@@ -100,7 +100,20 @@
     [dictFive removeAllObjects];
 
 }
-
+- (void)creatQRCode_2016_4_27
+{
+    CGFloat imageSize = ceilf(self.view.bounds.size.width * 0.6f);
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(floorf(self.view.bounds.size.width * 0.5f - imageSize * 0.5f), floorf(self.view.bounds.size.height * 0.5f - imageSize * 0.5f), imageSize, imageSize)];
+    //生成二维码图片
+    imageView.image = [QREncoding createQRcodeForString:@"http://www.alipay.com" withSize:imageView.bounds.size.width withRed:255 green:0 blue:0];
+    //添加中心图片
+    UIImageView *centerImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"zhifubao.png"]];
+    centerImage.frame= CGRectMake(0, 0, 38.f, 38.f);
+    centerImage.center = CGPointMake(CGRectGetWidth(imageView.frame)/2.f, CGRectGetHeight(imageView.frame)/2.f);
+    [imageView addSubview:centerImage];
+    [self.view addSubview:imageView];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

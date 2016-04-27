@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C3033CBF1CD0A8AA00B56597 /* QREncoding.m */; };
+		C3033CC21CD0A90000B56597 /* zhifubao.png in Resources */ = {isa = PBXBuildFile; fileRef = C3033CC11CD0A90000B56597 /* zhifubao.png */; };
 		C38008771CC7717D0080E63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C38008761CC7717D0080E63B /* main.m */; };
 		C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38008791CC7717D0080E63B /* AppDelegate.m */; };
 		C380087D1CC7717D0080E63B /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C380087C1CC7717D0080E63B /* YLViewController.m */; };
 		C38008801CC7717D0080E63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C380087E1CC7717D0080E63B /* Main.storyboard */; };
 		C38008821CC7717D0080E63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38008811CC7717D0080E63B /* Assets.xcassets */; };
 		C38008851CC7717D0080E63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38008831CC7717D0080E63B /* LaunchScreen.storyboard */; };
-		C380088D1CC776870080E63B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C380088C1CC776870080E63B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3033CBE1CD0A8AA00B56597 /* QREncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QREncoding.h; sourceTree = "<group>"; };
+		C3033CBF1CD0A8AA00B56597 /* QREncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QREncoding.m; sourceTree = "<group>"; };
+		C3033CC11CD0A90000B56597 /* zhifubao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhifubao.png; sourceTree = "<group>"; };
 		C38008721CC7717D0080E63B /* YLUtilityDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLUtilityDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38008761CC7717D0080E63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C38008781CC7717D0080E63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +31,6 @@
 		C38008811CC7717D0080E63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C38008841CC7717D0080E63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C38008861CC7717D0080E63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C380088C1CC776870080E63B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3033CBC1CD0A2AB00B56597 /* Method-1~100 */ = {
+			isa = PBXGroup;
+			children = (
+				C3033CBD1CD0A86B00B56597 /* Method-3 */,
+			);
+			name = "Method-1~100";
+			sourceTree = "<group>";
+		};
+		C3033CBD1CD0A86B00B56597 /* Method-3 */ = {
+			isa = PBXGroup;
+			children = (
+				C3033CC11CD0A90000B56597 /* zhifubao.png */,
+				C3033CBE1CD0A8AA00B56597 /* QREncoding.h */,
+				C3033CBF1CD0A8AA00B56597 /* QREncoding.m */,
+			);
+			name = "Method-3";
+			sourceTree = "<group>";
+		};
 		C38008691CC7717D0080E63B = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				C380088E1CC77BBE0080E63B /* 初始文件 */,
-				C380088C1CC776870080E63B /* README.md */,
+				C3033CBC1CD0A2AB00B56597 /* Method-1~100 */,
 				C38008751CC7717D0080E63B /* Supporting Files */,
 			);
 			path = YLUtilityDemos;
@@ -151,6 +172,7 @@
 				C38008851CC7717D0080E63B /* LaunchScreen.storyboard in Resources */,
 				C38008821CC7717D0080E63B /* Assets.xcassets in Resources */,
 				C38008801CC7717D0080E63B /* Main.storyboard in Resources */,
+				C3033CC21CD0A90000B56597 /* zhifubao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C380087D1CC7717D0080E63B /* YLViewController.m in Sources */,
+				C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */,
 				C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */,
-				C380088D1CC776870080E63B /* README.md in Sources */,
 				C38008771CC7717D0080E63B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +335,7 @@
 				C380088B1CC7717D0080E63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
