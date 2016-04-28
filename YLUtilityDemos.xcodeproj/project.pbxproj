@@ -14,7 +14,6 @@
 		C380087D1CC7717D0080E63B /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C380087C1CC7717D0080E63B /* YLViewController.m */; };
 		C38008801CC7717D0080E63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C380087E1CC7717D0080E63B /* Main.storyboard */; };
 		C38008821CC7717D0080E63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38008811CC7717D0080E63B /* Assets.xcassets */; };
-		C38008851CC7717D0080E63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38008831CC7717D0080E63B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		C380087C1CC7717D0080E63B /* YLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
 		C380087F1CC7717D0080E63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C38008811CC7717D0080E63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C38008841CC7717D0080E63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C38008861CC7717D0080E63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +103,6 @@
 				C380087C1CC7717D0080E63B /* YLViewController.m */,
 				C380087E1CC7717D0080E63B /* Main.storyboard */,
 				C38008811CC7717D0080E63B /* Assets.xcassets */,
-				C38008831CC7717D0080E63B /* LaunchScreen.storyboard */,
 				C38008861CC7717D0080E63B /* Info.plist */,
 			);
 			name = "初始文件";
@@ -169,7 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38008851CC7717D0080E63B /* LaunchScreen.storyboard in Resources */,
 				C38008821CC7717D0080E63B /* Assets.xcassets in Resources */,
 				C38008801CC7717D0080E63B /* Main.storyboard in Resources */,
 				C3033CC21CD0A90000B56597 /* zhifubao.png in Resources */,
@@ -199,14 +195,6 @@
 				C380087F1CC7717D0080E63B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C38008831CC7717D0080E63B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C38008841CC7717D0080E63B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,7 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = YLUtilityDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = db.YLUtilityDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,7 +299,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = YLUtilityDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = db.YLUtilityDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";

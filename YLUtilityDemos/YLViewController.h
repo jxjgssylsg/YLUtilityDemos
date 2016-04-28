@@ -5,7 +5,9 @@
 //  Created by yilin on 16/4/20.
 //  Copyright © 2016年 yilin. All rights reserved.
 //
-
+/*****************
+   NOTE:搜索需要Demo的关键字,在YLViewController.m中调用即可.
+ ******************/
 #import <UIKit/UIKit.h>
 
 @interface YLViewController : UIViewController
