@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C3033CBF1CD0A8AA00B56597 /* QREncoding.m */; };
 		C3033CC21CD0A90000B56597 /* zhifubao.png in Resources */ = {isa = PBXBuildFile; fileRef = C3033CC11CD0A90000B56597 /* zhifubao.png */; };
+		C3514AF21CD345B6002F997C /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3514AF11CD345B6002F997C /* CalendarViewController.m */; };
 		C38008771CC7717D0080E63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C38008761CC7717D0080E63B /* main.m */; };
 		C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38008791CC7717D0080E63B /* AppDelegate.m */; };
 		C380087D1CC7717D0080E63B /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C380087C1CC7717D0080E63B /* YLViewController.m */; };
@@ -20,6 +21,8 @@
 		C3033CBE1CD0A8AA00B56597 /* QREncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QREncoding.h; sourceTree = "<group>"; };
 		C3033CBF1CD0A8AA00B56597 /* QREncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QREncoding.m; sourceTree = "<group>"; };
 		C3033CC11CD0A90000B56597 /* zhifubao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhifubao.png; sourceTree = "<group>"; };
+		C3514AF01CD345B6002F997C /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		C3514AF11CD345B6002F997C /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		C38008721CC7717D0080E63B /* YLUtilityDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLUtilityDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38008761CC7717D0080E63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C38008781CC7717D0080E63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				C3033CBD1CD0A86B00B56597 /* Method-3 */,
+				C3514AEF1CD34576002F997C /* Method-4 */,
 			);
 			name = "Method-1~100";
 			sourceTree = "<group>";
@@ -58,6 +62,15 @@
 				C3033CBF1CD0A8AA00B56597 /* QREncoding.m */,
 			);
 			name = "Method-3";
+			sourceTree = "<group>";
+		};
+		C3514AEF1CD34576002F997C /* Method-4 */ = {
+			isa = PBXGroup;
+			children = (
+				C3514AF01CD345B6002F997C /* CalendarViewController.h */,
+				C3514AF11CD345B6002F997C /* CalendarViewController.m */,
+			);
+			name = "Method-4";
 			sourceTree = "<group>";
 		};
 		C38008691CC7717D0080E63B = {
@@ -182,6 +195,7 @@
 				C380087D1CC7717D0080E63B /* YLViewController.m in Sources */,
 				C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */,
 				C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */,
+				C3514AF21CD345B6002F997C /* CalendarViewController.m in Sources */,
 				C38008771CC7717D0080E63B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

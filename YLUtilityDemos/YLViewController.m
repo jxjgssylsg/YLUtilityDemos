@@ -8,6 +8,7 @@
 
 #import "YLViewController.h"
 #import "QREncoding.h"
+#import "CalendarViewController.h"
 
 @interface YLViewController ()
 
@@ -17,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self creatQRCode_2016_4_27];
+    [self creatSimpleCalendar_2016_4_29];
     
 }
 
@@ -59,7 +60,7 @@
     NSArray *value = [NSArray arrayWithObjects:@"Kate", @"080-123-456", @"中国", nil];
     NSDictionary *dicThree = [NSDictionary dictionaryWithObjects:value
                                                          forKeys:key];
-    int count = [dicThree count];
+    NSInteger count = [dicThree count];
     NSArray *allKey = [dicThree allKeys];
     NSArray *allValue = [dicThree allValues];
     BOOL isEqual = [dicThree isEqualToDictionary:dicTwo]; //两个字典是否相等
@@ -114,6 +115,14 @@
     [self.view addSubview:imageView];
     
 }
+- (void)creatSimpleCalendar_2016_4_29
+{
+    CalendarViewController *temp = [[CalendarViewController alloc] init];
+    [temp.view setFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height)];
+    [self addChildViewController:temp];
+    [self.view addSubview:temp.view];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
