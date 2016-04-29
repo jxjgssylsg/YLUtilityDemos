@@ -1,4 +1,4 @@
- 
+
 # YLUtilityDemos  for  ios
 
 **这个repo是做ios开发中经常需要用到的demo,可以是方法,第三方库,或者任何您觉得有益他人开发的.主要是方便我们开发过程中节省找Demo的时间,能够更高效的开发以及更好的理解所需要的东西**
@@ -39,5 +39,9 @@
 
 # 方法目录
 
-- 方法1:`boundingRectWithSize`Demo 1.算出来了具有属性的文字所占有的空间 2.ParagraphStyle属性,例如字体行间距,首行缩进
+- 方法1:`boundingRectWithSize`1.算出来了具有属性的文字所占有的空间 2.ParagraphStyle属性,例如字体行间距,首行缩进 [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_1.png)
 - 方法2:简单使用`NSDictionary`和`NSMutableDictionary`, 包括初始化,遍历,删除,修改等,建议单步或者断点调试着看
+- 方法3:二维码制作,根据给定的字符串 (`two-dimension code,QR Code`)
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_3.png)
+- 方法4:制作基本的一个月的日历,可以自行扩展和修改 (`calendar`)
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_4.png)
