@@ -79,6 +79,24 @@
 // 方法20:UIScrollView 的循环图片浏览器
 - (void)creatUIScrollViewThree;
 
+// 方法21: 基本的 navigationController, toolbar
+- (void)creatNavVCOne;
+
+// 方法22: navigationController 各种例子; 透明,下拉放大
+- (void)creatNavVCTwo;
+
+// 方法23: navigationController 手势滑动, 系统方法或 runtime 机制 KVC
+
+- (void)creatNavVCThree;
+
+// 方法24:TabBarController NavigationController 混合使用
+- (void)creatTabbarVCOne;
+
+// 方法25:自定义 TabBar, 利用 KVC
+- (void)creatTabbarVCTwo;
+
+
+
 
 
 
