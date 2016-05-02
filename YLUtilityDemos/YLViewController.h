@@ -22,5 +22,7 @@
 - (void)creatSimpleCalendar_2016_4_29;
 //方法5:NSDate常用的方法集合,建议断点调试着看
 - (void)testNSDate_2016_4_30;
+//NSTimeZONE时区的使用方法
+ - (void)testNSTimeZone;
 @end
 
