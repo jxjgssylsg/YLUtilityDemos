@@ -20,6 +20,67 @@
     [super viewDidLoad];
   //[self testNSDictionary_2016_4_3];
     [self creatQRCode_2016_4_27];
+   // [self creatSimpleCalendar_2016_4_29];
+    [self testNSDate_2016_4_30];
+    
+}
+- (void)testNSDate_2016_4_30
+{
+    //-------------------------------- NSDate ----> NSString ---------------------------------//
+    
+    //NSDate ----> NSString
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"年月日,时分秒  yyyy - MM - dd HH:mm:ss"]; //似乎只要有对应的就行
+    NSLog(@"%@",dateFormatter.timeZone);
+    NSLog(@"%@",dateFormatter.locale);
+    NSDate *dateOne = [NSDate date];
+    NSLog(@"转换前 = %@", dateOne);
+    NSString *strDate = [dateFormatter stringFromDate:dateOne];
+    //转的时候会根据-时区-变化,加了8小时,参考NSTimeZone
+    NSLog(@"转换后 = %@", strDate);
+    
+    //---------------------------- NSString -----> NSDate ------------------------------------//
+    
+    //NSString -----> NSDate
+    NSDateFormatter *dateFormatterTwo = [[NSDateFormatter alloc] init];
+    [dateFormatterTwo setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSDate *date = [dateFormatterTwo dateFromString:@"2016-04-29 17:46:03"];
+    //转的时候会根据-时区-变化,减掉了8小时,,参考NSTimeZone
+    NSLog(@"%@",date);//输出2016-04-29 09:46:03 +0000 对比 2016-04-29 17:46:03
+    
+    //--------------------------------------------------------------------------------------------//
+    
+    //日期创建方式
+    NSDate *dateTwo = [NSDate date];
+    NSString *str = [dateTwo description];
+    NSLog(@"%@",str);
+    NSDate *dateThree = [NSDate dateWithTimeIntervalSinceNow:-60*60*24*7]; //负数代表过去
+    NSLog(@"%@",dateThree);
+    //日期是否相同
+    BOOL isEqual = [dateTwo isEqual:dateThree];
+    NSLog(@"%d",isEqual);
+    
+    // 从某时间开始经过某秒后的日期时间
+    NSDate *dateFour = [dateThree  initWithTimeInterval:60*60*24*7 sinceDate:dateThree];
+    NSDate *dateFive = [NSDate dateWithTimeInterval:60*60*24*7 sinceDate:dateThree];
+    NSLog(@"%@",dateFour);
+    NSLog(@"%@",dateFive);
+    
+    //某两个时间相隔多久
+    NSInteger gap = [dateThree timeIntervalSinceDate:dateFive];
+    NSLog(@"%ld",gap);
+    
+    //取得正确的时间,既UTC世界统一时间 + 8小时
+    NSTimeZone *zone = [NSTimeZone systemTimeZone];
+    NSInteger interval = [zone secondsFromGMTForDate:dateTwo];
+    NSDate *localDate = [dateTwo  dateByAddingTimeInterval: interval];
+    NSLog(@"正确当前时间 localDate = %@",localDate);
+    
+    //时间比较
+    BOOL later = [dateOne laterDate:localDate];
+    NSLog(@"%d",later);
+    BOOL early = ([localDate compare:dateOne] == NSOrderedAscending);
+    NSLog(@"%d",early);
     
 }
 
@@ -69,7 +130,7 @@
     NSArray *allValue = [dicThree allValues];
     NSLog(@"%@",allValue);
     BOOL isEqual = [dicThree isEqualToDictionary:dicTwo]; //两个字典是否相等
-    NSLog(@"%d",isEqual);
+    NSLog(@"%ld,%@,%@,@%d",count,allKey,allValue,isEqual);
     //遍历
     for(NSString *key in dicThree)
     {
