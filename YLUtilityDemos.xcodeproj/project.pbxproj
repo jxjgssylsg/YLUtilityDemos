@@ -57,7 +57,6 @@
 		C3033CBD1CD0A86B00B56597 /* Method-3 */ = {
 			isa = PBXGroup;
 			children = (
-				C3033CC11CD0A90000B56597 /* zhifubao.png */,
 				C3033CBE1CD0A8AA00B56597 /* QREncoding.h */,
 				C3033CBF1CD0A8AA00B56597 /* QREncoding.m */,
 			);
@@ -94,6 +93,7 @@
 			children = (
 				C380088E1CC77BBE0080E63B /* 初始文件 */,
 				C3033CBC1CD0A2AB00B56597 /* Method-1~100 */,
+                C38E3AEC1CD8902400A70DD3 /* 图片资源(尽量复用) */,
 				C38008751CC7717D0080E63B /* Supporting Files */,
 			);
 			path = YLUtilityDemos;
@@ -119,6 +119,14 @@
 				C38008861CC7717D0080E63B /* Info.plist */,
 			);
 			name = "初始文件";
+			sourceTree = "<group>";
+		};
+		C38E3AEC1CD8902400A70DD3 /* 图片资源(尽量复用) */ = {
+			isa = PBXGroup;
+			children = (
+				C3033CC11CD0A90000B56597 /* zhifubao.png */,
+			);
+			name = "图片资源(尽量复用)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

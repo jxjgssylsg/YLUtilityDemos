@@ -18,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self creatSimpleCalendar_2016_4_29];
+  //[self testNSDictionary_2016_4_3];
+    [self creatQRCode_2016_4_27];
     
 }
 
@@ -50,6 +51,7 @@
 {
     NSDictionary *dicOne = [NSDictionary dictionaryWithObject: @"hello"  forKey:@"key"];
     NSString *dicOneValue = dicOne[@"key"];
+    NSLog(@"%@",dicOneValue);
     
     NSDictionary *dicTwo = [NSDictionary dictionaryWithObjectsAndKeys:
                          @"Kate", @"name",
@@ -61,9 +63,13 @@
     NSDictionary *dicThree = [NSDictionary dictionaryWithObjects:value
                                                          forKeys:key];
     NSInteger count = [dicThree count];
+    NSLog(@"%ld",count);
     NSArray *allKey = [dicThree allKeys];
+    NSLog(@"%@",allKey);
     NSArray *allValue = [dicThree allValues];
+    NSLog(@"%@",allValue);
     BOOL isEqual = [dicThree isEqualToDictionary:dicTwo]; //两个字典是否相等
+    NSLog(@"%d",isEqual);
     //遍历
     for(NSString *key in dicThree)
     {

@@ -28,7 +28,7 @@
 	
     myCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     //设置每周的第一天从星期几开始(1是周日，2是周一)
-    [myCalendar setFirstWeekday:1];
+    [myCalendar setFirstWeekday:2];
     //设置每个月或者每年的第一周必须包含的最少天数
     [myCalendar setMinimumDaysInFirstWeek:1];
     //设置时区
