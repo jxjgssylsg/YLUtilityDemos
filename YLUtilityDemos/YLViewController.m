@@ -18,12 +18,88 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  //[self testNSDictionary_2016_4_3];
-    [self creatQRCode_2016_4_27];
+   // [self testNSDictionary_2016_4_3];
+   // [self creatQRCode_2016_4_27];
    // [self creatSimpleCalendar_2016_4_29];
-    [self testNSDate_2016_4_30];
+   // [self testNSDate_2016_4_30];
+      [self testNSTimeZone_2016_5_1];
     
 }
+
+- (void)testNSTimeZone_2016_5_1
+{
+    //------------------------------ 取得各个时区时间  ---------------------------------//
+    
+    //取得已知时区名称
+    NSArray *timeZoneNames = [NSTimeZone knownTimeZoneNames];
+    NSDate *date = [NSDate date];
+    //几百个时区,建议断点调试着看
+    for(NSString *name in timeZoneNames) {
+        NSTimeZone *timezone = [[NSTimeZone alloc] initWithName:name];
+        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+        //格式
+        [formatter setDateFormat:@"YYYY-MM-d HH:mm:ss"];
+        //设置时区
+        [formatter setTimeZone:timezone];
+        //NSDate ----> NSString
+        NSString *correctDate = [formatter stringFromDate:date];
+        NSLog(@"地点：%@   当地时间：%@",[timezone name], correctDate);
+        NSLog(
+              @"\nlocalTimeZone = [%@]\nDisplay = [%@]\nGMT = [%d] hours",
+              timezone,
+              [timezone name],
+              (int)[timezone secondsFromGMT] / 60 /60
+              );
+    }
+    
+    //-------------------方法timeZoneForSecondsFromGMT自定义时区---------------------------//
+    
+    NSDateFormatter *df = [[NSDateFormatter alloc]init];
+    df.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+    df.timeZone = [NSTimeZone systemTimeZone];//系统所在时区
+    NSString *systemTimeZoneStr =  [df stringFromDate:date];
+    df.timeZone = [NSTimeZone defaultTimeZone];//默认时区
+    NSString *defaultTimeZoneStr = [df stringFromDate:date];
+    df.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:8*3600];//直接指定时区
+    NSString *plus8TZStr = [df stringFromDate:date];
+    df.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0*3600];//这就是GMT+0时区
+    NSString *gmtTZStr = [df stringFromDate: date];
+    NSLog(@"\n SysTime:%@\n DefaultTime:%@\n +8:%@\n GMT_time:%@",systemTimeZoneStr,defaultTimeZoneStr,plus8TZStr,gmtTZStr);
+    
+    //-------------------- 修改默认时区会影响时间 -----------------------------------------//
+    
+    // 只能够修改该程序的defaultTimeZone，不能修改系统的，更不能修改其他程序的。
+    [NSTimeZone setDefaultTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"GMT+0900"]];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSDate *now = [NSDate date];
+    NSLog(@"now:%@", [dateFormatter stringFromDate:now]);
+    
+    // 也可直接修改NSDateFormatter的timeZone变量
+    dateFormatter.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"GMT+0800"];
+    NSLog(@"now:%@", [dateFormatter stringFromDate:now]);
+    
+    //-------------------- 通过secondsFromGMTForDate方法获得localtime ---------------------//
+    
+    NSDate *currentDate = [NSDate date];
+    NSLog(@"currentDate: %@",currentDate);
+    NSTimeZone *zone = [NSTimeZone systemTimeZone];
+    NSInteger interval = [zone secondsFromGMTForDate:currentDate];
+    NSDate *localDate = [currentDate dateByAddingTimeInterval:interval];
+    NSLog(@"正确的当前时间localDate: %@",localDate);
+    NSLog(@"当前时区和格林尼治时区差的秒数:%ld",[zone secondsFromGMT]);
+    NSLog(@"当前时区的缩写:%@",[zone abbreviation]);
+    
+    //-------------------------------- 设置并获取时区的缩写 ---------------------------------//
+    
+    NSMutableDictionary *abbs = [[NSMutableDictionary alloc] init];
+    [abbs setValuesForKeysWithDictionary:[NSTimeZone abbreviationDictionary]];//获得所有缩写
+    [abbs setValue:@"Asia/Shanghai" forKey:@"CCD"];//增加一个
+    [NSTimeZone setAbbreviationDictionary:abbs];//设置NStimezone的缩写
+    NSLog(@"abbs:%@", [NSTimeZone abbreviationDictionary]);
+    
+}
+
 - (void)testNSDate_2016_4_30
 {
     //-------------------------------- NSDate ----> NSString ---------------------------------//
