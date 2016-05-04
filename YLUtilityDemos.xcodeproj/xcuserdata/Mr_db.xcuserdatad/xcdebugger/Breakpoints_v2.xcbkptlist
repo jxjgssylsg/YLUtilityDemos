@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YLUtilityDemos/YLViewController.m"
-            timestampString = "483960816.226994"
+            timestampString = "483968098.694171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "-testNSDate_2016_4_30"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YLUtilityDemos/YLViewController.m"
-            timestampString = "483960816.226994"
+            timestampString = "483968098.694171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "-testBoundingRectWithSizeMethods_2016_3_27"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,12 +42,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YLUtilityDemos/YLViewController.m"
-            timestampString = "483960816.226994"
+            timestampString = "483968098.694171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
             landmarkName = "-testBoundingRectWithSizeMethods_2016_3_27"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YLUtilityDemos/YLViewController.m"
+            timestampString = "483968092.939618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-testNSLocale_2016_5_3"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
