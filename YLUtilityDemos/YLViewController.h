@@ -33,5 +33,8 @@
 //方法7:NSLocale常用的方法集合,建议断点调试着看
 - (void)testNSLocale_2016_5_3;
 
+//方法8:NSDateFormatter常用的方法集合
+- (void)testNSDateFormatter_2016_5_7;
+
 @end
 

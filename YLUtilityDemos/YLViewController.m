@@ -18,13 +18,85 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   // [self testNSDictionary_2016_4_3];
-   // [self creatQRCode_2016_4_27];
-   // [self creatSimpleCalendar_2016_4_29];
-   // [self testNSDate_2016_4_30];
-   // [self testNSTimeZone_2016_5_1];
-      [self testNSLocale_2016_5_3];
+    // [self testBoundingRectWithSizeMethods_2016_3_27];
+    // [self testNSDictionary_2016_4_3];
+    // [self creatQRCode_2016_4_27];
+    // [self creatSimpleCalendar_2016_4_29];
+    // [self testNSDate_2016_4_30];
+    // [self testNSTimeZone_2016_5_1];
+    // [self testNSLocale_2016_5_3];
+    [self testNSDateFormatter_2016_5_7];
     
+}
+- (void)testNSDateFormatter_2016_5_7
+{
+        //一个简单例子
+        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+        [formatter setDateFormat:@"一周第 e 天  zzzz:   YYYY-MM-dd  HH:mm:ss"];//e代表一周的第几天,从周日开始计算.zzzz表是时区地点
+        NSDate *date = [NSDate date];
+        NSString *correctDate = [formatter stringFromDate:date];
+        NSLog(@"%@",correctDate);
+        
+        //这个例子综合了各个参数,值得一看
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+        [dateFormatter setDateFormat:@" \n '公元前/后:'G ' \n 年份:'u'='yyyy'='yy ' \n 季度:'q'='qqq'='qqqq ' \n 月份:'M'='MMM'='MMMM ' \n 今天是今年第几周:'w ' \n 今天是本月第几周:'W  ' \n 今天是今年第几天:'D ' \n 今天是本月第几天:'d ' \n 星期:'c'='ccc'='cccc ' 上午/下午:'a ' \n 小时:'h'='H '分钟:'m '秒:'s '毫秒:'SSS  ' \n 这一天已过多少毫秒:'A  ' \n 时区名称:'zzzz'='vvvv '时区编号:'Z "];
+        NSLog(@"%@", [dateFormatter stringFromDate:[NSDate date]]);
+        
+        /*
+         参数      代表意义
+         
+         a        AM/PM (上午/下午)
+         K        0~11 有0時的12小時制
+         h        1~12 12小時制
+         H        0~23 有0時的24小时制
+         k        1~24 24小時制
+         m        0~59 分鐘
+         s        0~59 秒數
+         s        秒數的個位數
+         A        0~86399999 一天當中的第幾微秒
+         
+         v~vvv    一般的GMT時區縮寫
+         vvvv     一般的GMT時區名稱
+         z~zzz    具體的GMT時區縮寫
+         zzzz     具體的GMT時區名稱
+         d        1~31 日期
+         D        1~366 一年的第幾天
+         e        1~7 一週的第幾天
+         c/cc     1~7 一週的第幾天，星期日為第一天
+         
+         ccc      星期幾縮寫
+         E~EEE    星期幾縮寫
+         cccc     星期幾全名
+         EEEE     星期幾全名
+         
+         F        1~5 每月第幾周，一周的第一天為周一
+         w        1~5 每月第幾周，一周的第一天為周日
+         w        1~53 一年的第幾周，從去年的最後一個周日算起，一周的第一天為周日
+         
+         L/LL     1~12 第幾個月
+         M/MM     1~12 第幾個月
+         LLL      月份縮寫
+         MMM      月份縮寫
+         LLLL     月份全名
+         MMMM     月份全名
+         
+         q/qq     1~4 第幾季
+         Q/QQ     1~4 第幾季
+         qqq      季度縮寫
+         QQQ      季度縮寫
+         qqqq     季度全名
+         QQQQ     季度全名
+         
+         u        完整年份
+         y/yyyy   完整年份
+         Y/YYYY   完整年份，從星期天開始的第一周算起
+         yy/yyy   兩位數的年份
+         YY/YYY   兩位數的年份，從星期天開始的第一周算起
+         g        Julian Day Number，從4713 BC一月一日算起
+         G~GGG    BC/AD 西元前後縮寫
+         GGGG     西元前後全名
+         
+         */
 }
 - (void)testNSLocale_2016_5_3
 {
