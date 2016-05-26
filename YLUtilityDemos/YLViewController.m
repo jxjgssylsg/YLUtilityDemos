@@ -28,6 +28,58 @@
     [self testNSDateFormatter_2016_5_7];
     
 }
+- (void)testNSDateComponents
+{
+    //例一:从日期中提取日期组件
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDate *date = [NSDate date];
+    NSDateComponents *dateComponents = [calendar components:(NSCalendarUnitDay | NSCalendarUnitMonth) fromDate:date];
+    NSLog(@"%@",dateComponents);
+    
+    //例二:用Components来创建日期
+    [dateComponents setYear:1987];
+    [dateComponents setMonth:3];
+    [dateComponents setDay:17];
+    [dateComponents setHour:14];
+    [dateComponents setMinute:20];
+    NSDate *dateTwo = [calendar dateFromComponents:dateComponents];
+    NSLog(@"%@",dateTwo);
+    
+    
+    //例三:计算相对日期
+    NSDateComponents *components = [[NSDateComponents alloc] init];
+    [components setWeekOfMonth:1];//一周
+    [components setHour:2];
+    //注意输出的是UTC时间
+    NSLog(@"1 week and two hours from now :%@",[calendar dateByAddingComponents:components toDate:date options:0]);
+  
+    //根据两个时间点，定义NSDateComponents对象，从而获取这两个时间点的时差
+    dateComponents = [calendar components:NSCalendarUnitYear fromDate:[NSDate dateWithTimeIntervalSince1970:0] toDate:[NSDate date] options:0];
+    NSLog(@"number of years:%li", (long)dateComponents.year);
+    
+//---------------------------- 展示NSDateComponents属性集 ---------------------------------//
+    
+    //先定义一个遵循某个历法的日历对象
+    NSCalendar *greCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    //通过已定义的日历对象，获取某个时间点的NSDateComponents表示，并设置需要表示哪些信息（NSYearCalendarUnit, NSMonthCalendarUnit, NSDayCalendarUnit等）
+    NSDateComponents *dateComponentsTwo = [greCalendar components:NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit | NSWeekCalendarUnit | NSWeekdayCalendarUnit | NSWeekOfMonthCalendarUnit | NSWeekOfYearCalendarUnit fromDate:[NSDate date]];
+    NSLog(@"year(年份): %li", (long)dateComponentsTwo.year);
+    NSLog(@"quarter(季度):%li", (long)dateComponentsTwo.quarter);
+    NSLog(@"month(月份):%li", (long)dateComponentsTwo.month);
+    NSLog(@"day(日期):%li", (long)dateComponentsTwo.day);
+    NSLog(@"hour(小时):%li", (long)dateComponentsTwo.hour);
+    NSLog(@"minute(分钟):%li", (long)dateComponentsTwo.minute);
+    NSLog(@"second(秒):%li", (long)dateComponentsTwo.second);
+    
+    // Sunday:1, Monday:2, Tuesday:3, Wednesday:4, Friday:5, Saturday:6  --例如 1 代表日历第一天是周日
+    NSLog(@"weekday(星期):%li", (long)dateComponentsTwo.weekday);
+    
+    // 苹果官方不推荐使用week
+    NSLog(@"week(该年第几周):%li", (long)dateComponentsTwo.week);
+    NSLog(@"weekOfYear(该年第几周):%li", (long)dateComponentsTwo.weekOfYear);
+    NSLog(@"weekOfMonth(该月第几周):%li", (long)dateComponentsTwo.weekOfMonth);
+    
+}
 - (void)testNSDateFormatter_2016_5_7
 {
         //一个简单例子
