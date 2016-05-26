@@ -25,10 +25,11 @@
     // [self testNSDate_2016_4_30];
     // [self testNSTimeZone_2016_5_1];
     // [self testNSLocale_2016_5_3];
-    [self testNSDateFormatter_2016_5_7];
+    // [self testNSDateFormatter_2016_5_7];
+    [self testNSDateComponents_2016_5_20];
     
 }
-- (void)testNSDateComponents
+- (void)testNSDateComponents_2016_5_20
 {
     //例一:从日期中提取日期组件
     NSCalendar *calendar = [NSCalendar currentCalendar];

@@ -36,5 +36,7 @@
 //方法8:NSDateFormatter常用的方法集合
 - (void)testNSDateFormatter_2016_5_7;
 
+//方法9:testNSDateComponents常用的方法集合
+- (void)testNSDateComponents_2016_5_20;
 @end
 
