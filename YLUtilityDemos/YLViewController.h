@@ -38,5 +38,8 @@
 
 //方法9:testNSDateComponents常用的方法集合
 - (void)testNSDateComponents_2016_5_20;
+
+//方法10:testNSCalendar常用的方法集合, 可以参考方法4:制作简单的一个月的日历
+- (void)testNSCalendar_2016_5_23;
 @end
 

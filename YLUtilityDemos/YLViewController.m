@@ -26,7 +26,56 @@
     // [self testNSTimeZone_2016_5_1];
     // [self testNSLocale_2016_5_3];
     // [self testNSDateFormatter_2016_5_7];
-    [self testNSDateComponents_2016_5_20];
+    // [self testNSDateComponents_2016_5_20];
+    [self testNSCalendar_2016_5_23];
+    
+}
+- (void)testNSCalendar_2016_5_23
+{
+    //当前时间对应的月份中有几天
+    NSInteger daysOfMonth = [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:[NSDate date]].length;
+    NSLog(@"%ld",daysOfMonth);
+    
+    //当前时间对应的月份中有几周（前面说到的firstWeekday会影响到这个结果）
+    NSInteger weeksOfMonth = [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitWeekOfMonth inUnit:NSCalendarUnitMonth forDate:[NSDate date]].length;
+    NSLog(@"%ld",weeksOfMonth);
+    
+    //当前时间对应的周是当前年中的第几周
+    NSInteger  weekOfYear = [[NSCalendar currentCalendar] ordinalityOfUnit:NSCalendarUnitWeekOfYear inUnit:NSCalendarUnitYear forDate:[NSDate date]];
+    NSLog(@"%ld",weekOfYear);
+    
+    //当前时间是当前月的哪一周
+    NSInteger weekOfMonth = [[NSCalendar currentCalendar] ordinalityOfUnit:NSCalendarUnitWeekOfMonth inUnit:NSCalendarUnitMonth forDate:[NSDate date]];
+    NSLog(@"%ld",weekOfMonth);
+    
+    //当前时间是这一年的哪一天
+    NSInteger dayOfYear = [[NSCalendar currentCalendar] ordinalityOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitYear forDate:[NSDate date]];
+    NSLog(@"%ld",dayOfYear);
+    
+    //判断时间段和起始时间
+    NSDate *startDateOfYear;
+    NSDate *startDateOfMonth;
+    NSDate *startDateOfWeek;
+    NSDate *startDateOfDay;
+    NSTimeInterval TIOfYear;
+    NSTimeInterval TIOfMonth;
+    NSTimeInterval TIOfWeek;
+    NSTimeInterval TIOfDay;
+    [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitYear startDate:&startDateOfYear interval:&TIOfYear forDate:[NSDate date]];
+    [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitMonth startDate:&startDateOfMonth interval:&TIOfMonth forDate:[NSDate date]];
+    [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitWeekOfMonth startDate:&startDateOfWeek interval:&TIOfWeek forDate:[NSDate date]];
+    [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitDay startDate:&startDateOfDay interval:&TIOfDay forDate:[NSDate date]];
+    NSLog(@"\nFirstDateOfYear:%@, \nFirstDateOfMonth:%@, \nFirstDateOfWeek:%@, \nFirstDateOfDay:%@", startDateOfYear, startDateOfMonth, startDateOfWeek, startDateOfDay);
+    NSLog(@"\n一年的时间(秒):%f\n一月的时间(秒):%f\n一个星期的时间(秒):%f\n一天的时间(秒):%f", TIOfYear, TIOfMonth, TIOfWeek, TIOfDay);
+    
+    //日历标示符
+    NSCalendar *calendarOne = [NSCalendar currentCalendar];
+    NSLog(@"%@",calendarOne.calendarIdentifier);
+    //设置每周的第一天从星期几开始(1是周日，2是周一,依次类推),可以参考方法4:制作简单的一个月的日历
+    [calendarOne setFirstWeekday:2];
+    NSLog(@"%lu",(unsigned long)calendarOne.firstWeekday);
+    
+    //还有一些其他方法:例如设置时区< - (void)setTimeZone:(NSTimeZone *)tz >,设置本地化 < - (void)setLocale:(NSLocale *)locale >就不一一演示了,可以参见 http://www.cnblogs.com/wayne23/archive/2013/03/25/2981009.html http://my.oschina.net/yongbin45/blog/156181?fromerr=c07GCztc
     
 }
 - (void)testNSDateComponents_2016_5_20
