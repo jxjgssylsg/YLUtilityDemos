@@ -5,10 +5,17 @@
 //  Created by yilin on 16/4/20.
 //  Copyright © 2016年 yilin. All rights reserved.
 //
+
 /*****************
    NOTE:搜索需要Demo的关键字,在YLViewController.m中调用即可.
  ******************/
 #import <UIKit/UIKit.h>
+//优化控制台输出
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"文件名:%s:第%d行输出\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
 
 @interface YLViewController : UIViewController
 

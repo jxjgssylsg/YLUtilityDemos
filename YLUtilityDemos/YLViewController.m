@@ -27,7 +27,7 @@
     // [self testNSLocale_2016_5_3];
     // [self testNSDateFormatter_2016_5_7];
     // [self testNSDateComponents_2016_5_20];
-    [self testNSCalendar_2016_5_23];
+       [self testNSCalendar_2016_5_23];
     
 }
 - (void)testNSCalendar_2016_5_23
@@ -234,24 +234,6 @@
     //语言偏好设置列表，对应于IOS中Setting>General>Language弹出的面板中的语言列表。
     NSArray *preferredLanguages = [NSLocale preferredLanguages];
     NSLog(@"\n%@,\n%@,\n%@,\n%@,\n%@",localeIdentifiers,countryCodes,currenyCodes,languageCodes,preferredLanguages);
-    
-    
-    /*
-     NSDate *startDateOfYear;
-     NSDate *startDateOfMonth;
-     NSDate *startDateOfWeek;
-     NSDate *startDateOfDay;
-     NSTimeInterval TIOfYear;
-     NSTimeInterval TIOfMonth;
-     NSTimeInterval TIOfWeek;
-     NSTimeInterval TIOfDay;
-     [[NSCalendar currentCalendar] rangeOfUnit:NSYearCalendarUnit startDate:&startDateOfYear interval:&TIOfYear forDate:[NSDate date]];
-     [[NSCalendar currentCalendar] rangeOfUnit:NSMonthCalendarUnit startDate:&startDateOfMonth interval:&TIOfMonth forDate:[NSDate date]];
-     [[NSCalendar currentCalendar] rangeOfUnit:NSWeekCalendarUnit startDate:&startDateOfWeek interval:&TIOfWeek forDate:[NSDate date]];
-     [[NSCalendar currentCalendar] rangeOfUnit:NSDayCalendarUnit startDate:&startDateOfDay interval:&TIOfDay forDate:[NSDate date]];
-     NSLog(@"firstDateOfYear:%@, FirstDateOfMonth:%@, FirstDateOfWeek:%@, FirstDateOfDay:%@", startDateOfYear, startDateOfMonth, startDateOfWeek, startDateOfDay);
-     NSLog(@"\nTIOfYear:%f\nTIOfMonth:%f\nTIOfWeek:%f\nTIOfDay:%f\n", TIOfYear, TIOfMonth, TIOfWeek, TIOfDay);
-     */
 
 }
 - (void)testNSTimeZone_2016_5_1
