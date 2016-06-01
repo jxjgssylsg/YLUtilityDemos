@@ -39,10 +39,23 @@
 
 # 方法目录
 
-- 方法1:`boundingRectWithSize`1.算出来了具有属性的文字所占有的空间 2.ParagraphStyle属性,例如字体行间距,首行缩进 [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_1.png)
+- 方法1:`boundingRectWithSize`1.算出来了具有属性的文字所占有的空间 2.ParagraphStyle属性,例如字体行间距,首行缩进
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_1.png)
 - 方法2:简单使用`NSDictionary`和`NSMutableDictionary`, 包括初始化,遍历,删除,修改等,建议单步或者断点调试着看
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_2.png)
 - 方法3:二维码制作,根据给定的字符串 (`two-dimension code,QR Code`)
        [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_3.png)
 - 方法4:制作基本的一个月的日历,可以自行扩展和修改 (`calendar`)
        [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_4.png)
 - 方法5:`NSDate`常用的方法集合,建议断点调试着看
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_5.png)  
+- 方法6:`NSTimeZone`常用的方法集合,建议断点调试着看
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_6.png)  
+- 方法7:`NSLocale`常用的方法集合,建议断点调试着看
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_7.png)  
+- 方法8:`NSDateFormatter`常用的方法集合
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_8.png) 
+- 方法9:`NSDateComponents`常用的方法集合
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_9.png)
+- 方法10:`NSCalendar`常用的方法集合, 可以参考方法4:制作简单的一个月的日历
+       [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_10.png)
