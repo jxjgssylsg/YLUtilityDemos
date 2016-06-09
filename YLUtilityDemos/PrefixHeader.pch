@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  CellAutoLayoutDemo
+//
+//  Created by Andy on 16/3/15.
+//  Copyright © 2016年 Andy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 优化控制台输出
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"文件名:%s:第%d行输出\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 设置内容: $(SRCROOT)/projectName/PrefixHeader.pch 或 $(SRCROOT)/PrefixHeader.pch
+// 本项目设置: $(SRCROOT)/YLExperimentForOC/PrefixHeader.pch
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#import <Masonry/Masonry.h>
+
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#endif /* PrefixHeader_pch */
