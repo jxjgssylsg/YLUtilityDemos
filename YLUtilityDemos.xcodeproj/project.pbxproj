@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C3033CBF1CD0A8AA00B56597 /* QREncoding.m */; };
 		C3033CC21CD0A90000B56597 /* zhifubao.png in Resources */ = {isa = PBXBuildFile; fileRef = C3033CC11CD0A90000B56597 /* zhifubao.png */; };
+		C34FEB161D10EB3F006E6A51 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C34FEB101D10EB3F006E6A51 /* 1.png */; };
+		C34FEB171D10EB3F006E6A51 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C34FEB111D10EB3F006E6A51 /* 2.png */; };
+		C34FEB181D10EB3F006E6A51 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C34FEB121D10EB3F006E6A51 /* 3.png */; };
+		C34FEB191D10EB3F006E6A51 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C34FEB131D10EB3F006E6A51 /* 4.png */; };
+		C34FEB1A1D10EB3F006E6A51 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = C34FEB141D10EB3F006E6A51 /* 5.png */; };
+		C34FEB1B1D10EB3F006E6A51 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = C34FEB151D10EB3F006E6A51 /* 6.png */; };
 		C3514AF21CD345B6002F997C /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3514AF11CD345B6002F997C /* CalendarViewController.m */; };
 		C38008771CC7717D0080E63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C38008761CC7717D0080E63B /* main.m */; };
 		C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38008791CC7717D0080E63B /* AppDelegate.m */; };
@@ -21,6 +27,12 @@
 		C3033CBE1CD0A8AA00B56597 /* QREncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QREncoding.h; sourceTree = "<group>"; };
 		C3033CBF1CD0A8AA00B56597 /* QREncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QREncoding.m; sourceTree = "<group>"; };
 		C3033CC11CD0A90000B56597 /* zhifubao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhifubao.png; sourceTree = "<group>"; };
+		C34FEB101D10EB3F006E6A51 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		C34FEB111D10EB3F006E6A51 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		C34FEB121D10EB3F006E6A51 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		C34FEB131D10EB3F006E6A51 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		C34FEB141D10EB3F006E6A51 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		C34FEB151D10EB3F006E6A51 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		C3514AF01CD345B6002F997C /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		C3514AF11CD345B6002F997C /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		C38008721CC7717D0080E63B /* YLUtilityDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLUtilityDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +105,7 @@
 			children = (
 				C380088E1CC77BBE0080E63B /* 初始文件 */,
 				C3033CBC1CD0A2AB00B56597 /* Method-1~100 */,
-                C38E3AEC1CD8902400A70DD3 /* 图片资源(尽量复用) */,
+				C38E3AEC1CD8902400A70DD3 /* 图片资源(尽量复用) */,
 				C38008751CC7717D0080E63B /* Supporting Files */,
 			);
 			path = YLUtilityDemos;
@@ -124,6 +136,12 @@
 		C38E3AEC1CD8902400A70DD3 /* 图片资源(尽量复用) */ = {
 			isa = PBXGroup;
 			children = (
+				C34FEB101D10EB3F006E6A51 /* 1.png */,
+				C34FEB111D10EB3F006E6A51 /* 2.png */,
+				C34FEB121D10EB3F006E6A51 /* 3.png */,
+				C34FEB131D10EB3F006E6A51 /* 4.png */,
+				C34FEB141D10EB3F006E6A51 /* 5.png */,
+				C34FEB151D10EB3F006E6A51 /* 6.png */,
 				C3033CC11CD0A90000B56597 /* zhifubao.png */,
 			);
 			name = "图片资源(尽量复用)";
@@ -188,6 +206,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38008821CC7717D0080E63B /* Assets.xcassets in Resources */,
+				C34FEB191D10EB3F006E6A51 /* 4.png in Resources */,
+				C34FEB161D10EB3F006E6A51 /* 1.png in Resources */,
+				C34FEB1B1D10EB3F006E6A51 /* 6.png in Resources */,
+				C34FEB171D10EB3F006E6A51 /* 2.png in Resources */,
+				C34FEB181D10EB3F006E6A51 /* 3.png in Resources */,
+				C34FEB1A1D10EB3F006E6A51 /* 5.png in Resources */,
 				C38008801CC7717D0080E63B /* Main.storyboard in Resources */,
 				C3033CC21CD0A90000B56597 /* zhifubao.png in Resources */,
 			);
