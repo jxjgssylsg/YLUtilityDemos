@@ -9,6 +9,7 @@
 #import "YLViewController.h"
 #import "QREncoding.h"
 #import "CalendarViewController.h"
+#import "TableViewControllerOne.h"
 
 @interface YLViewController ()
 
@@ -27,9 +28,24 @@
     // [self testNSLocale_2016_5_3];
     // [self testNSDateFormatter_2016_5_7];
     // [self testNSDateComponents_2016_5_20];
-       [self testNSCalendar_2016_5_23];
+    // [self testNSCalendar_2016_5_23];
+       [self creatUITableViewOne_2016_5_25];
+    // [self creatUITableViewTwo];
+    // [self creatUITableViewThree];
+    // [self creatUITableViewFour];
+    // [self creatUITableViewSix];
+    // [self creatUITableViewSeven];
     
 }
+- (void)creatUITableViewOne_2016_5_25
+{
+    TableViewControllerOne *tableViewOne = [[TableViewControllerOne alloc] init];
+    [tableViewOne.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
+    
+    [self addChildViewController:tableViewOne];
+    [self.view addSubview:tableViewOne.view];
+}
+
 - (void)testNSCalendar_2016_5_23
 {
     //当前时间对应的月份中有几天
