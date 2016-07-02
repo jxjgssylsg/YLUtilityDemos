@@ -10,6 +10,7 @@
 #import "QREncoding.h"
 #import "CalendarViewController.h"
 #import "TableViewControllerOne.h"
+#import "TableViewControllerTwo.h"
 
 @interface YLViewController ()
 
@@ -29,14 +30,24 @@
     // [self testNSDateFormatter_2016_5_7];
     // [self testNSDateComponents_2016_5_20];
     // [self testNSCalendar_2016_5_23];
-       [self creatUITableViewOne_2016_5_25];
-    // [self creatUITableViewTwo];
+    // [self creatUITableViewOne_2016_5_25];
+       [self creatUITableViewTwo_2016_5_26];
     // [self creatUITableViewThree];
     // [self creatUITableViewFour];
     // [self creatUITableViewSix];
     // [self creatUITableViewSeven];
     
 }
+
+- (void)creatUITableViewTwo_2016_5_26
+{
+    TableViewControllerTwo *tableViewTwo = [[TableViewControllerTwo alloc] init];
+    [tableViewTwo.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
+    
+    [self addChildViewController:tableViewTwo];
+    [self.view addSubview:tableViewTwo.view];
+}
+
 - (void)creatUITableViewOne_2016_5_25
 {
     TableViewControllerOne *tableViewOne = [[TableViewControllerOne alloc] init];

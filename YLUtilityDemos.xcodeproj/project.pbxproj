@@ -22,6 +22,7 @@
 		C38008801CC7717D0080E63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C380087E1CC7717D0080E63B /* Main.storyboard */; };
 		C38008821CC7717D0080E63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38008811CC7717D0080E63B /* Assets.xcassets */; };
 		C3EE398F1D27C0500023BB97 /* TableViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */; };
+		C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39921D27C4AE0023BB97 /* TableViewControllerTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		C38008861CC7717D0080E63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3EE398D1D27C0500023BB97 /* TableViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerOne.h; sourceTree = "<group>"; };
 		C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerOne.m; sourceTree = "<group>"; };
+		C3EE39911D27C4AE0023BB97 /* TableViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerTwo.h; sourceTree = "<group>"; };
+		C3EE39921D27C4AE0023BB97 /* TableViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		C3033CBC1CD0A2AB00B56597 /* Method-1~100 */ = {
 			isa = PBXGroup;
 			children = (
+				C3EE39901D27C4940023BB97 /* Method-12 */,
 				C3EE398C1D27BFF00023BB97 /* Method-11 */,
 				C3033CBD1CD0A86B00B56597 /* Method-3 */,
 				C3514AEF1CD34576002F997C /* Method-4 */,
@@ -160,6 +164,15 @@
 			name = "Method-11";
 			sourceTree = "<group>";
 		};
+		C3EE39901D27C4940023BB97 /* Method-12 */ = {
+			isa = PBXGroup;
+			children = (
+				C3EE39911D27C4AE0023BB97 /* TableViewControllerTwo.h */,
+				C3EE39921D27C4AE0023BB97 /* TableViewControllerTwo.m */,
+			);
+			name = "Method-12";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +255,7 @@
 				C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */,
 				C3514AF21CD345B6002F997C /* CalendarViewController.m in Sources */,
 				C3EE398F1D27C0500023BB97 /* TableViewControllerOne.m in Sources */,
+				C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */,
 				C38008771CC7717D0080E63B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
