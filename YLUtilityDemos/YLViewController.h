@@ -54,5 +54,10 @@
 
 // 方法12:TableView 基本功能:增加,删除,排序,点击等
 - (void)creatUITableViewTwo_2016_5_26;
+
+// 方法13:TableView 添加搜索功能 <1> 逻辑相对复杂
+- (void)creatUITableViewThree_2016_6_1;
+
+
 @end
 

@@ -11,6 +11,7 @@
 #import "CalendarViewController.h"
 #import "TableViewControllerOne.h"
 #import "TableViewControllerTwo.h"
+#import "TableViewControllerThree.h"
 
 @interface YLViewController ()
 
@@ -31,12 +32,20 @@
     // [self testNSDateComponents_2016_5_20];
     // [self testNSCalendar_2016_5_23];
     // [self creatUITableViewOne_2016_5_25];
-       [self creatUITableViewTwo_2016_5_26];
-    // [self creatUITableViewThree];
+    // [self creatUITableViewTwo_2016_5_26];
+       [self creatUITableViewThree_2016_6_1];
     // [self creatUITableViewFour];
     // [self creatUITableViewSix];
     // [self creatUITableViewSeven];
     
+}
+- (void)creatUITableViewThree_2016_6_1
+{
+    TableViewControllerThree *tableViewThree = [[TableViewControllerThree alloc] init];
+    [tableViewThree.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
+    
+    [self addChildViewController:tableViewThree];
+    [self.view addSubview:tableViewThree.view];
 }
 
 - (void)creatUITableViewTwo_2016_5_26
