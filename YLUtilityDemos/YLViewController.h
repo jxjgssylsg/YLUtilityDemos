@@ -67,6 +67,9 @@
 // 方法16:自定义 TableViewcell,通过代码形式
 - (void)creatUITableViewSix_2016_6_7;
 
+// 方法17:自定义 TableViewcell 侧滑多按钮等功能
+- (void)creatUITableViewSeven_2016_6_13;
+
 
 
 

@@ -39,6 +39,9 @@
 		C3EE39BF1D2A06560023BB97 /* DataModelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39B81D2A06560023BB97 /* DataModelGroup.m */; };
 		C3EE39C01D2A06560023BB97 /* DataModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39BA1D2A06560023BB97 /* DataModelFrame.m */; };
 		C3EE39C11D2A06560023BB97 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3EE39BB1D2A06560023BB97 /* statuses.plist */; };
+		C3EE39C81D2A0BFF0023BB97 /* TableViewControllerSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39C31D2A0BFF0023BB97 /* TableViewControllerSeven.m */; };
+		C3EE39C91D2A0BFF0023BB97 /* CellSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39C51D2A0BFF0023BB97 /* CellSeven.m */; };
+		C3EE39CA1D2A0BFF0023BB97 /* ScrollViewSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39C71D2A0BFF0023BB97 /* ScrollViewSeven.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +94,12 @@
 		C3EE39B91D2A06560023BB97 /* DataModelFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModelFrame.h; sourceTree = "<group>"; };
 		C3EE39BA1D2A06560023BB97 /* DataModelFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModelFrame.m; sourceTree = "<group>"; };
 		C3EE39BB1D2A06560023BB97 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		C3EE39C21D2A0BFF0023BB97 /* TableViewControllerSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerSeven.h; sourceTree = "<group>"; };
+		C3EE39C31D2A0BFF0023BB97 /* TableViewControllerSeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerSeven.m; sourceTree = "<group>"; };
+		C3EE39C41D2A0BFF0023BB97 /* CellSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSeven.h; sourceTree = "<group>"; };
+		C3EE39C51D2A0BFF0023BB97 /* CellSeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSeven.m; sourceTree = "<group>"; };
+		C3EE39C61D2A0BFF0023BB97 /* ScrollViewSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewSeven.h; sourceTree = "<group>"; };
+		C3EE39C71D2A0BFF0023BB97 /* ScrollViewSeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewSeven.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +284,12 @@
 		C3EE39B01D2A06310023BB97 /* Method-17 */ = {
 			isa = PBXGroup;
 			children = (
+				C3EE39C21D2A0BFF0023BB97 /* TableViewControllerSeven.h */,
+				C3EE39C31D2A0BFF0023BB97 /* TableViewControllerSeven.m */,
+				C3EE39C41D2A0BFF0023BB97 /* CellSeven.h */,
+				C3EE39C51D2A0BFF0023BB97 /* CellSeven.m */,
+				C3EE39C61D2A0BFF0023BB97 /* ScrollViewSeven.h */,
+				C3EE39C71D2A0BFF0023BB97 /* ScrollViewSeven.m */,
 			);
 			name = "Method-17";
 			sourceTree = "<group>";
@@ -364,15 +379,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C380087D1CC7717D0080E63B /* YLViewController.m in Sources */,
+				C3EE39C81D2A0BFF0023BB97 /* TableViewControllerSeven.m in Sources */,
 				C3EE39C01D2A06560023BB97 /* DataModelFrame.m in Sources */,
 				C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */,
 				C3EE39A41D2A01F40023BB97 /* CustomCell.m in Sources */,
 				C3EE39BD1D2A06560023BB97 /* CustomCellForCode.m in Sources */,
+				C3EE39CA1D2A0BFF0023BB97 /* ScrollViewSeven.m in Sources */,
 				C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */,
 				C3EE399F1D2A01260023BB97 /* TableViewControllerFive.m in Sources */,
 				C3514AF21CD345B6002F997C /* CalendarViewController.m in Sources */,
 				C3EE39971D29FD750023BB97 /* TableViewControllerThree.m in Sources */,
 				C3EE39BF1D2A06560023BB97 /* DataModelGroup.m in Sources */,
+				C3EE39C91D2A0BFF0023BB97 /* CellSeven.m in Sources */,
 				C3EE398F1D27C0500023BB97 /* TableViewControllerOne.m in Sources */,
 				C3EE399B1D2A00380023BB97 /* TableViewControllerFour.m in Sources */,
 				C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */,

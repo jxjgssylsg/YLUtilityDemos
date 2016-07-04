@@ -15,6 +15,7 @@
 #import "TableViewControllerFour.h"
 #import "TableViewControllerFive.h"
 #import "TableViewControllerSix.h"
+#import "TableViewControllerSeven.h"
 
 @interface YLViewController ()
 
@@ -39,11 +40,32 @@
     // [self creatUITableViewThree_2016_6_1];
     // [self creatUITableViewFour_2016_6_3];
     // [self creatUITableViewFive_2016_6_5];
-       [self creatUITableViewSix_2016_6_7];
-    // [self creatUITableViewSeven];
+    // [self creatUITableViewSix_2016_6_7];
+       [self creatUITableViewSeven_2016_6_13];
     
 }
-
+-(void)creatUITableViewSeven_2016_6_13
+{
+    TableViewControllerSeven *tableViewSeven = [[TableViewControllerSeven alloc] init];
+    [tableViewSeven.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
+    
+    [self addChildViewController:tableViewSeven];
+    [self.view addSubview:tableViewSeven.view];
+    
+    self.navigationItem.leftBarButtonItem = tableViewSeven.navigationItem.leftBarButtonItem;
+    // 这里必须设置成 tableView 的 navigationItem 才会有效果,因为是tableview 变成 editing animation,
+    self.navigationItem.rightBarButtonItem = tableViewSeven.navigationItem.rightBarButtonItem;
+   // self.navigationItem.rightBarButtonItem = self.editButtonItem; // 这样设置是无效的
+    self.navigationItem.title = @"Table View";
+    
+    UINavigationController *Navi =  [[UINavigationController alloc] initWithRootViewController:self];
+    [Navi.view setFrame:CGRectMake(0, 10, [UIScreen mainScreen].bounds.size.width, 40)];
+   // self.navigationController.navigationBar.hidden = NO;
+   // [self.navigationController setNavigationBarHidden:NO];
+    self.navigationController.view.backgroundColor =[UIColor redColor];
+    [self.view addSubview:Navi.view];
+   
+}
 -(void)creatUITableViewSix_2016_6_7
 {
     TableViewControllerSix *tableViewSix = [[TableViewControllerSix alloc] init];
