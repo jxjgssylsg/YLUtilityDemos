@@ -58,6 +58,49 @@
 // 方法13:TableView 添加搜索功能 <1> 逻辑相对复杂
 - (void)creatUITableViewThree_2016_6_1;
 
+// 方法14:TableView 搜索功能 <2> 利用UISearchController, 原UISearchDisplayController Deprecated 弃用了
+- (void)creatUITableViewFour_2016_6_3;
+
+// 方法15:自定义 TableViewcell,通过xib形式
+- (void)creatUITableViewFive_2016_6_5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end
 

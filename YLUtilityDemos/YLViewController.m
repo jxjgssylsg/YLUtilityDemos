@@ -12,6 +12,8 @@
 #import "TableViewControllerOne.h"
 #import "TableViewControllerTwo.h"
 #import "TableViewControllerThree.h"
+#import "TableViewControllerFour.h"
+#import "TableViewControllerFive.h"
 
 @interface YLViewController ()
 
@@ -33,12 +35,32 @@
     // [self testNSCalendar_2016_5_23];
     // [self creatUITableViewOne_2016_5_25];
     // [self creatUITableViewTwo_2016_5_26];
-       [self creatUITableViewThree_2016_6_1];
-    // [self creatUITableViewFour];
+    // [self creatUITableViewThree_2016_6_1];
+       [self creatUITableViewFour_2016_6_3];
+    // [self creatUITableViewFive_2016_6_5];
     // [self creatUITableViewSix];
     // [self creatUITableViewSeven];
     
 }
+
+-(void)creatUITableViewFive_2016_6_5
+{
+    TableViewControllerFive *tableViewFive = [[TableViewControllerFive alloc] init];
+    [tableViewFive.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
+    
+    [self addChildViewController:tableViewFive];
+    [self.view addSubview:tableViewFive.view];
+}
+
+- (void)creatUITableViewFour_2016_6_3
+{
+    TableViewControllerFour *tableViewFour = [[TableViewControllerFour alloc] init];
+    [tableViewFour.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
+    
+    [self addChildViewController:tableViewFour];
+    [self.view addSubview:tableViewFour.view];
+}
+
 - (void)creatUITableViewThree_2016_6_1
 {
     TableViewControllerThree *tableViewThree = [[TableViewControllerThree alloc] init];
