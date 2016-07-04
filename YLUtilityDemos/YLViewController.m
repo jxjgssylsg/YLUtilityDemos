@@ -14,6 +14,7 @@
 #import "TableViewControllerThree.h"
 #import "TableViewControllerFour.h"
 #import "TableViewControllerFive.h"
+#import "TableViewControllerSix.h"
 
 @interface YLViewController ()
 
@@ -37,10 +38,19 @@
     // [self creatUITableViewTwo_2016_5_26];
     // [self creatUITableViewThree_2016_6_1];
     // [self creatUITableViewFour_2016_6_3];
-       [self creatUITableViewFive_2016_6_5];
-    // [self creatUITableViewSix];
+    // [self creatUITableViewFive_2016_6_5];
+       [self creatUITableViewSix_2016_6_7];
     // [self creatUITableViewSeven];
     
+}
+
+-(void)creatUITableViewSix_2016_6_7
+{
+    TableViewControllerSix *tableViewSix = [[TableViewControllerSix alloc] init];
+    [tableViewSix.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
+    
+    [self addChildViewController:tableViewSix];
+    [self.view addSubview:tableViewSix.view];
 }
 
 -(void)creatUITableViewFive_2016_6_5

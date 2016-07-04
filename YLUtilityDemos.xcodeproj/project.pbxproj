@@ -33,6 +33,12 @@
 		C3EE39AC1D2A03280023BB97 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = C3EE39A81D2A03280023BB97 /* 8.png */; };
 		C3EE39AD1D2A03280023BB97 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = C3EE39A91D2A03280023BB97 /* 9.png */; };
 		C3EE39AE1D2A03280023BB97 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = C3EE39AA1D2A03280023BB97 /* 10.png */; };
+		C3EE39BC1D2A06560023BB97 /* TableViewControllerSix.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39B21D2A06560023BB97 /* TableViewControllerSix.m */; };
+		C3EE39BD1D2A06560023BB97 /* CustomCellForCode.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39B41D2A06560023BB97 /* CustomCellForCode.m */; };
+		C3EE39BE1D2A06560023BB97 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39B61D2A06560023BB97 /* DataModel.m */; };
+		C3EE39BF1D2A06560023BB97 /* DataModelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39B81D2A06560023BB97 /* DataModelGroup.m */; };
+		C3EE39C01D2A06560023BB97 /* DataModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39BA1D2A06560023BB97 /* DataModelFrame.m */; };
+		C3EE39C11D2A06560023BB97 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3EE39BB1D2A06560023BB97 /* statuses.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +80,17 @@
 		C3EE39A81D2A03280023BB97 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		C3EE39A91D2A03280023BB97 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		C3EE39AA1D2A03280023BB97 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		C3EE39B11D2A06560023BB97 /* TableViewControllerSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerSix.h; sourceTree = "<group>"; };
+		C3EE39B21D2A06560023BB97 /* TableViewControllerSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerSix.m; sourceTree = "<group>"; };
+		C3EE39B31D2A06560023BB97 /* CustomCellForCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellForCode.h; sourceTree = "<group>"; };
+		C3EE39B41D2A06560023BB97 /* CustomCellForCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellForCode.m; sourceTree = "<group>"; };
+		C3EE39B51D2A06560023BB97 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		C3EE39B61D2A06560023BB97 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		C3EE39B71D2A06560023BB97 /* DataModelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModelGroup.h; sourceTree = "<group>"; };
+		C3EE39B81D2A06560023BB97 /* DataModelGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModelGroup.m; sourceTree = "<group>"; };
+		C3EE39B91D2A06560023BB97 /* DataModelFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModelFrame.h; sourceTree = "<group>"; };
+		C3EE39BA1D2A06560023BB97 /* DataModelFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModelFrame.m; sourceTree = "<group>"; };
+		C3EE39BB1D2A06560023BB97 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +107,7 @@
 		C3033CBC1CD0A2AB00B56597 /* Method-1~100 */ = {
 			isa = PBXGroup;
 			children = (
+				C3EE39B01D2A06310023BB97 /* Method-17 */,
 				C3EE39AF1D2A035D0023BB97 /* Method-16 */,
 				C3EE399C1D2A010F0023BB97 /* Method-15 */,
 				C3EE39981D2A00060023BB97 /* Method-14 */,
@@ -239,8 +257,26 @@
 		C3EE39AF1D2A035D0023BB97 /* Method-16 */ = {
 			isa = PBXGroup;
 			children = (
+				C3EE39B11D2A06560023BB97 /* TableViewControllerSix.h */,
+				C3EE39B21D2A06560023BB97 /* TableViewControllerSix.m */,
+				C3EE39B31D2A06560023BB97 /* CustomCellForCode.h */,
+				C3EE39B41D2A06560023BB97 /* CustomCellForCode.m */,
+				C3EE39B51D2A06560023BB97 /* DataModel.h */,
+				C3EE39B61D2A06560023BB97 /* DataModel.m */,
+				C3EE39B71D2A06560023BB97 /* DataModelGroup.h */,
+				C3EE39B81D2A06560023BB97 /* DataModelGroup.m */,
+				C3EE39B91D2A06560023BB97 /* DataModelFrame.h */,
+				C3EE39BA1D2A06560023BB97 /* DataModelFrame.m */,
+				C3EE39BB1D2A06560023BB97 /* statuses.plist */,
 			);
 			name = "Method-16";
+			sourceTree = "<group>";
+		};
+		C3EE39B01D2A06310023BB97 /* Method-17 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Method-17";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +341,7 @@
 				C38008821CC7717D0080E63B /* Assets.xcassets in Resources */,
 				C34FEB191D10EB3F006E6A51 /* 4.png in Resources */,
 				C3EE39AB1D2A03280023BB97 /* 7.png in Resources */,
+				C3EE39C11D2A06560023BB97 /* statuses.plist in Resources */,
 				C34FEB161D10EB3F006E6A51 /* 1.png in Resources */,
 				C3EE39AE1D2A03280023BB97 /* 10.png in Resources */,
 				C34FEB1B1D10EB3F006E6A51 /* 6.png in Resources */,
@@ -327,15 +364,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C380087D1CC7717D0080E63B /* YLViewController.m in Sources */,
+				C3EE39C01D2A06560023BB97 /* DataModelFrame.m in Sources */,
 				C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */,
 				C3EE39A41D2A01F40023BB97 /* CustomCell.m in Sources */,
+				C3EE39BD1D2A06560023BB97 /* CustomCellForCode.m in Sources */,
 				C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */,
 				C3EE399F1D2A01260023BB97 /* TableViewControllerFive.m in Sources */,
 				C3514AF21CD345B6002F997C /* CalendarViewController.m in Sources */,
 				C3EE39971D29FD750023BB97 /* TableViewControllerThree.m in Sources */,
+				C3EE39BF1D2A06560023BB97 /* DataModelGroup.m in Sources */,
 				C3EE398F1D27C0500023BB97 /* TableViewControllerOne.m in Sources */,
 				C3EE399B1D2A00380023BB97 /* TableViewControllerFour.m in Sources */,
 				C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */,
+				C3EE39BE1D2A06560023BB97 /* DataModel.m in Sources */,
+				C3EE39BC1D2A06560023BB97 /* TableViewControllerSix.m in Sources */,
 				C38008771CC7717D0080E63B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

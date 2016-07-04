@@ -64,6 +64,9 @@
 // 方法15:自定义 TableViewcell,通过xib形式
 - (void)creatUITableViewFive_2016_6_5;
 
+// 方法16:自定义 TableViewcell,通过代码形式
+- (void)creatUITableViewSix_2016_6_7;
+
 
 
 
