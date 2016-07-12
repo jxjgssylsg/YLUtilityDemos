@@ -1,26 +1,25 @@
 
 # YLUtilityDemos  for  ios
 
-**这个repo是做ios开发中经常需要用到的demo,可以是方法,第三方库,或者任何您觉得有益他人开发的.主要是方便我们开发过程中节省找Demo的时间,能够更高效的开发以及更好的理解所需要的东西**
+**这个 Repo 是做 iOS 学习开发中经常需要用到的 Demo,希望由浅入深的 Demo 能够将基本的原理和常用方法讲清楚. Demo 源于自己编写或网络学习整理**
 
-### 欢迎参与到Demo库的建设当中! 共同学习,互助成长.
+### 欢迎大家共同参与到 Demo 库的建设当中,互助成长.
 -----------
 
 #使用方式
-**使用方式非常简单**
+**使用方式:**
 
 1. 在`YLViewController.h`中搜索你需要的找的Demo的关键字,找到这个方法的序号就行了.
 2. 在`YLViewController.m`的'viewDidLoad'中调用这个方法便可以了.
 
-##共同开发原则:  
+##开发原则:  
 
-- **Demo必须具有隔离性,保证结构和使用简单.尽量不用到第三方库,保证demo的纯洁性,方便他人学习和扩展使用.**    
+- **Demo 必须具有隔离性,保证学习和使用简单,方便学习和扩展使用.**    
   方法的demo涉及内容较少的话就不要创建新的文件了,直接在`YLViewController.h`声明一个方法,在`YLViewController.m`完成后,  
   可以在`YLViewController.m`的`viewDidLoad`方法中调用.结构保持非常清晰.    
-  **例如**:写一个关于`testBoundingRectWithSizeMethods_2016_3_27`方法使用的Demo,设计内容较小,不需要新建文件和类.   
+  **例如**:写一个关于`testBoundingRectWithSizeMethods_2016_3_27`方法使用的 Demo,设计内容较小,不需要新建文件和类.   
   **具体操作步骤:**  
->  **NOTE:**为方便使用者知道方法的修改或更新时间,同时也避免共同开发产生命名冲突, 采取特殊的在每一个方法最后**添加日期**,  
->  这个日期代表您`修改`,或者`添加`Demo的时间,您在项目中将会看到  
+>  **NOTE:**为方便使用者知道方法的修改或更新时间,同时也避免共同开发产生命名冲突, 采取特殊的在每一个方法最后**添加日期**,这个日期代表>  您`修改`,或者`添加` Demo 的时间,您在项目中将会看到  
 
  **1.在YLViewController.h加入一个方法,写上方法序号.如图:** [地址](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/Introduction_01.png)
  ![建立一个方法](http://img.blog.csdn.net/20160422155914604)
