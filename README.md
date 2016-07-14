@@ -19,7 +19,6 @@
   可以在`YLViewController.m`的`viewDidLoad`方法中调用.结构保持非常清晰.    
   **例如**:写一个关于`testBoundingRectWithSizeMethods`方法使用的 Demo,设计内容较小,不需要新建文件和类.   
   **具体操作步骤:**  
-
  **1.在YLViewController.h加入一个方法,写上方法序号.如图:** [地址](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/Introduction_01.png)
  ![建立一个方法](http://img.blog.csdn.net/20160422155914604)
 
@@ -59,5 +58,5 @@
        [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_10.png)
 - 方法11:最基本的 `UITableView`,展示最基本的原理,如 `UITableViewDataSource`, `UITableViewDelegate`
        [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_11.png)
-- 方法12:`TableView` 基本功能:增加,删除,排序,点击等
+- 方法12:`UITableView` 基本功能:增加,删除,排序,点击等
        [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_12.gif)
