@@ -17,9 +17,8 @@
 - **Demo 必须具有隔离性,保证学习和使用简单,方便学习和扩展使用.**    
   方法的demo涉及内容较少的话就不要创建新的文件了,直接在`YLViewController.h`声明一个方法,在`YLViewController.m`完成后,  
   可以在`YLViewController.m`的`viewDidLoad`方法中调用.结构保持非常清晰.    
-  **例如**:写一个关于`testBoundingRectWithSizeMethods_2016_3_27`方法使用的 Demo,设计内容较小,不需要新建文件和类.   
+  **例如**:写一个关于`testBoundingRectWithSizeMethods`方法使用的 Demo,设计内容较小,不需要新建文件和类.   
   **具体操作步骤:**  
->  **NOTE:**为方便使用者知道方法的修改或更新时间,同时也避免共同开发产生命名冲突, 采取特殊的在每一个方法最后**添加日期**,这个日期代表>  您`修改`,或者`添加` Demo 的时间,您在项目中将会看到  
 
  **1.在YLViewController.h加入一个方法,写上方法序号.如图:** [地址](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/Introduction_01.png)
  ![建立一个方法](http://img.blog.csdn.net/20160422155914604)
