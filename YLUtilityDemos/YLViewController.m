@@ -25,26 +25,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // [self testBoundingRectWithSizeMethods_2016_3_27];
-    // [self testNSDictionary_2016_4_3];
-    // [self creatQRCode_2016_4_27];
-    // [self creatSimpleCalendar_2016_4_29];
-    // [self testNSDate_2016_4_30];
-    // [self testNSTimeZone_2016_5_1];
-    // [self testNSLocale_2016_5_3];
-    // [self testNSDateFormatter_2016_5_7];
-    // [self testNSDateComponents_2016_5_20];
-    // [self testNSCalendar_2016_5_23];
-    // [self creatUITableViewOne_2016_5_25];
-    // [self creatUITableViewTwo_2016_5_26];
-    // [self creatUITableViewThree_2016_6_1];
-    // [self creatUITableViewFour_2016_6_3];
-    // [self creatUITableViewFive_2016_6_5];
-    // [self creatUITableViewSix_2016_6_7];
-       [self creatUITableViewSeven_2016_6_13];
+    // [self testBoundingRectWithSizeMethods];
+    // [self testNSDictionary];
+    // [self creatQRCode];
+    // [self creatSimpleCalendar];
+    // [self testNSDate];
+    // [self testNSTimeZone];
+    // [self testNSLocale];
+    // [self testNSDateFormatter];
+    // [self testNSDateComponents];
+    // [self testNSCalendar];
+    // [self creatUITableViewOne];
+    // [self creatUITableViewTwo];
+    // [self creatUITableViewThree];
+    // [self creatUITableViewFour];
+    // [self creatUITableViewFive];
+    // [self creatUITableViewSix];
+       [self creatUITableViewSeven];
     
 }
--(void)creatUITableViewSeven_2016_6_13 {
+- (void)creatUITableViewSeven {
     TableViewControllerSeven *tableViewSeven = [[TableViewControllerSeven alloc] init];
     [tableViewSeven.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
     
@@ -54,18 +54,18 @@
     self.navigationItem.leftBarButtonItem = tableViewSeven.navigationItem.leftBarButtonItem;
     // 这里必须设置成 tableView 的 navigationItem 才会有效果,因为是tableview 变成 editing animation,
     self.navigationItem.rightBarButtonItem = tableViewSeven.navigationItem.rightBarButtonItem;
-   // self.navigationItem.rightBarButtonItem = self.editButtonItem; // 这样设置是无效的
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem; // 这样设置是无效的
     self.navigationItem.title = @"Table View";
     
     UINavigationController *Navi =  [[UINavigationController alloc] initWithRootViewController:self];
     [Navi.view setFrame:CGRectMake(0, 10, [UIScreen mainScreen].bounds.size.width, 40)];
-   // self.navigationController.navigationBar.hidden = NO;
-   // [self.navigationController setNavigationBarHidden:NO];
+    // self.navigationController.navigationBar.hidden = NO;
+    // [self.navigationController setNavigationBarHidden:NO];
     self.navigationController.view.backgroundColor =[UIColor redColor];
     [self.view addSubview:Navi.view];
    
 }
--(void)creatUITableViewSix_2016_6_7 {
+- (void)creatUITableViewSix {
     TableViewControllerSix *tableViewSix = [[TableViewControllerSix alloc] init];
     [tableViewSix.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
     
@@ -73,7 +73,7 @@
     [self.view addSubview:tableViewSix.view];
 }
 
--(void)creatUITableViewFive_2016_6_5 {
+- (void)creatUITableViewFive {
     TableViewControllerFive *tableViewFive = [[TableViewControllerFive alloc] init];
     [tableViewFive.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
     
@@ -81,7 +81,7 @@
     [self.view addSubview:tableViewFive.view];
 }
 
-- (void)creatUITableViewFour_2016_6_3 {
+- (void)creatUITableViewFour {
     TableViewControllerFour *tableViewFour = [[TableViewControllerFour alloc] init];
     [tableViewFour.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
     
@@ -89,7 +89,7 @@
     [self.view addSubview:tableViewFour.view];
 }
 
-- (void)creatUITableViewThree_2016_6_1 {
+- (void)creatUITableViewThree {
     TableViewControllerThree *tableViewThree = [[TableViewControllerThree alloc] init];
     [tableViewThree.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
     
@@ -97,7 +97,7 @@
     [self.view addSubview:tableViewThree.view];
 }
 
-- (void)creatUITableViewTwo_2016_5_26 {
+- (void)creatUITableViewTwo {
     TableViewControllerTwo *tableViewTwo = [[TableViewControllerTwo alloc] init];
     [tableViewTwo.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
     
@@ -105,7 +105,7 @@
     [self.view addSubview:tableViewTwo.view];
 }
 
-- (void)creatUITableViewOne_2016_5_25 {
+- (void)creatUITableViewOne {
     TableViewControllerOne *tableViewOne = [[TableViewControllerOne alloc] init];
     [tableViewOne.view setFrame:CGRectMake(0, 70, self.view.bounds.size.width, self.view.bounds.size.height)];
     
@@ -113,7 +113,7 @@
     [self.view addSubview:tableViewOne.view];
 }
 
-- (void)testNSCalendar_2016_5_23 {
+- (void)testNSCalendar {
     // 当前时间对应的月份中有几天
     NSInteger daysOfMonth = [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:[NSDate date]].length;
     NSLog(@"%ld",daysOfMonth);
@@ -160,7 +160,7 @@
     // 还有一些其他方法:例如设置时区< - (void)setTimeZone:(NSTimeZone *)tz >,设置本地化 < - (void)setLocale:(NSLocale *)locale >就不一一演示了,可以参见 http://www.cnblogs.com/wayne23/archive/2013/03/25/2981009.html http://my.oschina.net/yongbin45/blog/156181?fromerr=c07GCztc
     
 }
-- (void)testNSDateComponents_2016_5_20 {
+- (void)testNSDateComponents {
     // 例一:从日期中提取日期组件
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDate *date = [NSDate date];
@@ -211,7 +211,7 @@
     NSLog(@"weekOfMonth(该月第几周):%li", (long)dateComponentsTwo.weekOfMonth);
     
 }
-- (void)testNSDateFormatter_2016_5_7 {
+- (void)testNSDateFormatter {
         // 一个简单例子
         NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
         [formatter setDateFormat:@"一周第 e 天  zzzz:   YYYY-MM-dd  HH:mm:ss"];// e代表一周的第几天,从周日开始计算.zzzz表是时区地点
@@ -280,7 +280,7 @@
          
          */
 }
-- (void)testNSLocale_2016_5_3 {
+- (void)testNSLocale {
     // 当前用户设置的本地化对象
     NSLocale *currentLocale= [NSLocale currentLocale];
     NSString *localeIdentifier = [currentLocale  objectForKey:NSLocaleIdentifier];
@@ -290,12 +290,12 @@
     
     // 获取国际化信息的显示名称
     NSLocale *curLocal = [[NSLocale alloc]initWithLocaleIdentifier:@"zh-Hans"];
-    NSLog(@"%@",[curLocal displayNameForKey:NSLocaleIdentifier value:@"fr_FR"]);// 法文（法國）
-    NSLog(@"%@",[curLocal displayNameForKey:NSLocaleIdentifier value:@"en-US"]);// 英文（美國)
-    NSLog(@"%@",[curLocal displayNameForKey:NSLocaleIdentifier value:@"en_pl"]);// 英文（波蘭）
+    NSLog(@"%@",[curLocal displayNameForKey:NSLocaleIdentifier value:@"fr_FR"]); // 法文（法國）
+    NSLog(@"%@",[curLocal displayNameForKey:NSLocaleIdentifier value:@"en-US"]); // 英文（美國)
+    NSLog(@"%@",[curLocal displayNameForKey:NSLocaleIdentifier value:@"en_pl"]); // 英文（波蘭）
     
     // 会根据设备的设置，自动返回不同语言的数据。
-    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"zh"];// 参数试试fr_FR,en_us
+    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"zh"]; // 参数试试fr_FR,en_us
     NSDateFormatter *secondDateFormatter = [[NSDateFormatter alloc] init];
     [secondDateFormatter setDateFormat:@"cccc"];
     secondDateFormatter.locale = locale;
@@ -315,7 +315,7 @@
     NSLog(@"\n%@,\n%@,\n%@,\n%@,\n%@",localeIdentifiers,countryCodes,currenyCodes,languageCodes,preferredLanguages);
 
 }
-- (void)testNSTimeZone_2016_5_1 {
+- (void)testNSTimeZone {
     //------------------------------ 取得各个时区时间  ---------------------------------//
     
     // 取得已知时区名称
@@ -344,13 +344,13 @@
     
     NSDateFormatter *df = [[NSDateFormatter alloc]init];
     df.dateFormat = @"yyyy-MM-dd HH:mm:ss";
-    df.timeZone = [NSTimeZone systemTimeZone];// 系统所在时区
+    df.timeZone = [NSTimeZone systemTimeZone]; // 系统所在时区
     NSString *systemTimeZoneStr =  [df stringFromDate:date];
-    df.timeZone = [NSTimeZone defaultTimeZone];// 默认时区
+    df.timeZone = [NSTimeZone defaultTimeZone]; // 默认时区
     NSString *defaultTimeZoneStr = [df stringFromDate:date];
-    df.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:8*3600];// 直接指定时区
+    df.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:8*3600]; // 直接指定时区
     NSString *plus8TZStr = [df stringFromDate:date];
-    df.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0*3600];// 这就是GMT+0时区
+    df.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0*3600]; // 这就是GMT+0时区
     NSString *gmtTZStr = [df stringFromDate: date];
     NSLog(@"\n SysTime:%@\n DefaultTime:%@\n +8:%@\n GMT_time:%@",systemTimeZoneStr,defaultTimeZoneStr,plus8TZStr,gmtTZStr);
     
@@ -381,14 +381,14 @@
     //-------------------------------- 设置并获取时区的缩写 ---------------------------------//
     
     NSMutableDictionary *abbs = [[NSMutableDictionary alloc] init];
-    [abbs setValuesForKeysWithDictionary:[NSTimeZone abbreviationDictionary]];// 获得所有缩写
-    [abbs setValue:@"Asia/Shanghai" forKey:@"CCD"];// 增加一个
-    [NSTimeZone setAbbreviationDictionary:abbs];// 设置NStimezone的缩写
+    [abbs setValuesForKeysWithDictionary:[NSTimeZone abbreviationDictionary]]; // 获得所有缩写
+    [abbs setValue:@"Asia/Shanghai" forKey:@"CCD"]; // 增加一个
+    [NSTimeZone setAbbreviationDictionary:abbs]; // 设置NStimezone的缩写
     NSLog(@"abbs:%@", [NSTimeZone abbreviationDictionary]);
     
 }
 
-- (void)testNSDate_2016_4_30 {
+- (void)testNSDate {
     //-------------------------------- NSDate ----> NSString ---------------------------------//
     
     // NSDate ----> NSString
@@ -447,7 +447,7 @@
     
 }
 
-- (void)testBoundingRectWithSizeMethods_2016_3_27 {
+- (void)testBoundingRectWithSizeMethods {
     UILabel *lbTemp =[[UILabel alloc] initWithFrame:CGRectMake(20, 20, 100, 700)];
     lbTemp.backgroundColor = [UIColor brownColor];
     lbTemp.lineBreakMode =  NSLineBreakByCharWrapping;
@@ -455,7 +455,6 @@
     lbTemp.text = @"天天\n上课,还挂科,是在是蛋疼.....希望这个地球更加美丽漂亮,随便写些东西都不是容易的事情啊";
     NSRange allRange = [lbTemp.text rangeOfString:lbTemp.text];
     [self.view addSubview:lbTemp];
-    
     
     NSMutableParagraphStyle *tempParagraph = [[NSMutableParagraphStyle alloc] init];
     tempParagraph.lineSpacing = 20;
@@ -466,10 +465,9 @@
     CGRect rect = [attrStr boundingRectWithSize:CGSizeMake(200, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading context:nil];
     lbTemp.frame = CGRectMake(50, 50, rect.size.width, rect.size.height);
     lbTemp.attributedText = attrStr;
-    
 }
 
-- (void)testNSDictionary_2016_4_3 {
+- (void)testNSDictionary {
     NSDictionary *dicOne = [NSDictionary dictionaryWithObject: @"hello"  forKey:@"key"];
     NSString *dicOneValue = dicOne[@"key"];
     NSLog(@"%@",dicOneValue);
@@ -528,7 +526,8 @@
     [dictFive removeAllObjects];
 
 }
-- (void)creatQRCode_2016_4_27 {
+
+- (void)creatQRCode {
     CGFloat imageSize = ceilf(self.view.bounds.size.width * 0.6f);
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(floorf(self.view.bounds.size.width * 0.5f - imageSize * 0.5f), floorf(self.view.bounds.size.height * 0.5f - imageSize * 0.5f), imageSize, imageSize)];
     // 生成二维码图片
@@ -541,7 +540,8 @@
     [self.view addSubview:imageView];
     
 }
-- (void)creatSimpleCalendar_2016_4_29 {
+
+- (void)creatSimpleCalendar {
     CalendarViewController *temp = [[CalendarViewController alloc] init];
     [temp.view setFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height)];
     [self addChildViewController:temp];
