@@ -306,11 +306,11 @@
     NSArray *localeIdentifiers = [NSLocale availableLocaleIdentifiers];
     // 获取所有已知国家代码数组列表
     NSArray * countryCodes = [NSLocale ISOCountryCodes];
-    // 获取所有已知ISO货币代码数组列表
+    // 获取所有已知 iSO 货币代码数组列表
     NSArray *currenyCodes  = [NSLocale ISOCurrencyCodes];
-    // 获取所有已知ISO语言代码数组列表
+    // 获取所有已知 iSO 语言代码数组列表
     NSArray *languageCodes = [NSLocale ISOLanguageCodes];
-    // 语言偏好设置列表，对应于IOS中Setting>General>Language弹出的面板中的语言列表。
+    // 语言偏好设置列表，对应于 iOS 中 Setting > General > Language 弹出的面板中的语言列表。
     NSArray *preferredLanguages = [NSLocale preferredLanguages];
     NSLog(@"\n%@,\n%@,\n%@,\n%@,\n%@",localeIdentifiers,countryCodes,currenyCodes,languageCodes,preferredLanguages);
 
@@ -340,7 +340,7 @@
               );
     }
     
-    //-------------------方法timeZoneForSecondsFromGMT自定义时区---------------------------//
+    //------------------- 方法 timeZoneForSecondsFromGMT 自定义时区 ---------------------------//
     
     NSDateFormatter *df = [[NSDateFormatter alloc]init];
     df.dateFormat = @"yyyy-MM-dd HH:mm:ss";
@@ -356,18 +356,18 @@
     
     //-------------------- 修改默认时区会影响时间 -----------------------------------------//
     
-    // 只能够修改该程序的defaultTimeZone，不能修改系统的，更不能修改其他程序的。
+    // 只能够修改该程序的 defaultTimeZone，不能修改系统的，更不能修改其他程序的。
     [NSTimeZone setDefaultTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"GMT+0900"]];
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     NSDate *now = [NSDate date];
     NSLog(@"now:%@", [dateFormatter stringFromDate:now]);
     
-    // 也可直接修改NSDateFormatter的timeZone变量
+    // 也可直接修改 NSDateFormatter的timeZone 变量
     dateFormatter.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"GMT+0800"];
     NSLog(@"now:%@", [dateFormatter stringFromDate:now]);
     
-    //-------------------- 通过secondsFromGMTForDate方法获得localtime ---------------------//
+    //-------------------- 通过 secondsFromGMTForDate 方法获得 localtime ---------------------//
     
     NSDate *currentDate = [NSDate date];
     NSLog(@"currentDate: %@",currentDate);
@@ -399,7 +399,7 @@
     NSDate *dateOne = [NSDate date];
     NSLog(@"转换前 = %@", dateOne);
     NSString *strDate = [dateFormatter stringFromDate:dateOne];
-    // 转的时候会根据-时区-变化,加了8小时,参考NSTimeZone
+    // 转的时候会根据-时区-变化,加了8小时,参考 NSTimeZone
     NSLog(@"转换后 = %@", strDate);
     
     //---------------------------- NSString -----> NSDate ------------------------------------//
@@ -408,8 +408,8 @@
     NSDateFormatter *dateFormatterTwo = [[NSDateFormatter alloc] init];
     [dateFormatterTwo setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     NSDate *date = [dateFormatterTwo dateFromString:@"2016-04-29 17:46:03"];
-    // 转的时候会根据-时区-变化,减掉了8小时,,参考NSTimeZone
-    NSLog(@"%@",date);//输出2016-04-29 09:46:03 +0000 对比 2016-04-29 17:46:03
+    // 转的时候会根据-时区-变化,减掉了8小时,,参考 NSTimeZone
+    NSLog(@"%@",date);// 输出2016-04-29 09:46:03 +0000 对比 2016-04-29 17:46:03
     
     //--------------------------------------------------------------------------------------------//
     
@@ -517,9 +517,9 @@
     }
     // 删除键所对应的键值对
     [dictFive removeObjectForKey:@"name"];
-    // 修改key对应的value的值
+    // 修改 key 对应的 value 的值
     dictFive[@"address"] = @"beijing";
-    // 删除数组中的所有key 对应的键值对
+    // 删除数组中的所有 key 对应的键值对
     NSArray *array = @[@"tel",@"address",@"key3"];
     [dictFive removeObjectsForKeys:array];
     // 移除字典中的所有对象
