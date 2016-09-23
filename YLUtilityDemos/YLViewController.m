@@ -40,8 +40,8 @@
     // [self creatUITableViewThree];
     // [self creatUITableViewFour];
     // [self creatUITableViewFive];
-    // [self creatUITableViewSix];
-       [self creatUITableViewSeven];
+     [self creatUITableViewSix];
+    // [self creatUITableViewSeven];
     
 }
 - (void)creatUITableViewSeven {

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>9BC34E23-5BEA-4A7E-8750-2148E0B71C83</string>
 	<key>IDESourceControlProjectName</key>
-	<string>YLUtilityDemos</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2AC17F709FDB2989B09948C584FB99596B490A80</key>
 		<string>https://github.com/jxjgssylsg/YLUtilityDemos.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>YLUtilityDemos.xcodeproj</string>
+	<string>YLUtilityDemos.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2AC17F709FDB2989B09948C584FB99596B490A80</key>

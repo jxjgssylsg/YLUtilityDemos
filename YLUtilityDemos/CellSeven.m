@@ -153,7 +153,7 @@ NSString *const CellSevenEnclosingTableViewDidBeginScrollingNotification = @"Cel
     self.scrollViewButtonView.frame = CGRectMake(scrollView.contentOffset.x + (CGRectGetWidth(self.bounds) - kCatchWidth), 0.0f, kCatchWidth, CGRectGetHeight(self.bounds));
 }
 // 自定 cell 的触摸事件处理
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+- (void)touchesBegan:(NSSet *)touches withEvent:(nullable UIEvent *)event
 {
     NSLog(@"cell touchesBegan method ");
     BOOL isSelect = self.selected;

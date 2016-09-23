@@ -16,10 +16,10 @@
 
 @interface CustomCellForCode ()
 
-@property (nonatomic, weak) UIImageView *iconImageView;
-@property (nonatomic, weak) UILabel *nameLabel;
-@property (nonatomic, weak) UIImageView *vipImageView;
-@property (nonatomic, weak) UILabel *text_label;
+@property (nonatomic, weak) UIImageView *iconImageView; // UI
+@property (nonatomic, weak) UILabel *nameLabel;         //
+@property (nonatomic, weak) UIImageView *vipImageView;  //
+@property (nonatomic, weak) UILabel *text_label;        //
 @property (nonatomic, weak) UIImageView *pictureImageView;
 
 @end
@@ -39,20 +39,20 @@
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         NSLog(@"syl_____ %s",__func__);
-        //avatar
+        // avatar
         UIImageView *iconImageView = [[UIImageView alloc] init];
         [self.contentView addSubview:iconImageView]; // 这里理解为强引用
         self.iconImageView = iconImageView; // 这里是 weak
         iconImageView.backgroundColor = [UIColor redColor]; // 可以从颜色看出重用机制
  
-        //member icon
+        // member icon
         UIImageView *vipImageView = [[UIImageView alloc] init];
         vipImageView.image = [UIImage imageNamed:@"vip"];
         vipImageView.contentMode = UIViewContentModeCenter;
         [self.contentView addSubview:vipImageView];
         self.vipImageView = vipImageView;
         
-        //illustration
+        // illustration
         UIImageView *pictureImageView = [[UIImageView alloc] init];
         pictureImageView.backgroundColor = [UIColor grayColor];
         [self.contentView addSubview:pictureImageView];
@@ -85,7 +85,7 @@
     
 }
 
-- (void)setModel:(DataModel *)model {
+- (void)setModel:(DataModel *)model { // 把内容赋值上去了, 若 label 的字有属性要注意~
     _model = model;
     if (model.picture) {
         _pictureImageView.image = [UIImage imageNamed:model.picture];

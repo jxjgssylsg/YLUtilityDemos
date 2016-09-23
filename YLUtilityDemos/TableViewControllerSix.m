@@ -15,7 +15,7 @@
 
 static NSString *CustomCellIdentifier = @"CustomCellIdentifier";
 
-@interface TableViewControllerSix ()<UITableViewDataSource,UITableViewDelegate>
+@interface TableViewControllerSix ()<UITableViewDataSource, UITableViewDelegate>
 
 @property(nonatomic, strong) NSMutableArray *dataArray; // 数据源
 @property(nonatomic, strong) NSMutableArray *frameArray; // cell高度
