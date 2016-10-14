@@ -1,0 +1,20 @@
+[
+ {
+ "name": "Chris",
+ "age": 18,
+ "city": "Shanghai",
+ "job": "iOS"
+ },
+ {
+ "name": "Ada",
+ "age": 16,
+ "city": "Beijing",
+ "job": "student"
+ },
+ {
+ "name": "Rita",
+ "age": 17,
+ "city": "Xiamen",
+ "job": "HR"
+ }
+ ]
