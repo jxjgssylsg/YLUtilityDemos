@@ -11,7 +11,7 @@
 #define MAS_SHORTHAND
 #define MAS_SHORTHAND_GLOBALS
 
-#import <Masonry/Masonry.h>
+#import "Masonry/Masonry.h"
 
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width

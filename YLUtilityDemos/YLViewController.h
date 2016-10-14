@@ -95,7 +95,62 @@
 // 方法25:自定义 TabBar, 利用 KVC
 - (void)creatTabbarVCTwo;
 
+// 方法26:UIWindow,键盘保护
+// 见 #import "AppDelegate.h", [[TestKeyWindow  sharedInstance] show];  密码保护
 
+// 方法27:NSTimer, 去除循环引用
+- (void)testNSTimer;
+
+// 方法28:MasonryOne   ❤️
+- (void)testMasonryOne;
+
+// 方法29:MasonryTwo   ❤️ ❤️
+- (void)testMasonryTwo;
+
+// 方法30:MasonryThree ❤️ ❤️
+- (void)testMasonryThree;
+
+// 方法31:MasonryFour  ❤️ ❤️
+- (void)testMasonryFour;
+
+// 方法32:MasonryFive  ❤️ ❤️ ❤️, textField 跟随着键盘移动~
+- (void)testMasonryFive;
+
+// 方法33:MasonrySix  ❤️ ❤️ ❤️ ❤️, 各种类型例子
+- (void)testMasonrySix;
+
+// 方法34:基本的 CollectionView
+- (void)creatUICollectionViewOne;
+
+// 方法35:日历.课程表 自定义布局 CollectionView
+- (void)creatUICollectionViewTwo;
+
+// 方法36:基础 CollectionView, footer and header, 点击放大,缩小
+- (void)creatUICollectionViewThree;
+
+// 方法37:自定义布局 CollectionView
+- (void)creatUICollectionViewFour;
+
+// 方法38:自定义布局 CollectionView CircleLayout, Decoration View, supplementary View, 插入, 删除等
+- (void)creatUICollectionViewFive;
+
+// 方法39:Pthread
+- (void)testPthread;
+
+// 方法40:NSThread
+- (void)testNSThread;
+
+// 方法41:GCD
+- (void)testGCD;
+
+// 方法42:NSOperation
+- (void)testNSOperation;
+
+// 方法43:Runtime 常用方法 动态添加
+- (void)testRuntime;
+
+// 方法44:Runtime 常用方法
+- (void)testRuntimeTwo;
 
 
 
