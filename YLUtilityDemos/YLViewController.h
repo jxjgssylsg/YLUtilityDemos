@@ -152,6 +152,17 @@
 // 方法44:Runtime 常用方法
 - (void)testRuntimeTwo;
 
+// 方法45:KVC 常用方法
+- (void)testKVC;
+
+// 方法46:KVO 监听
+- (void)testKVO;
+
+// 方法47:KVO 监听
+- (void)testKVOTwo;
+
+// 方法48:RunLoop
+- (void)testRunLoop;
 
 
 

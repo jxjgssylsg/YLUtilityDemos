@@ -129,6 +129,12 @@
 		C390BEC01DBC9B9A006A922B /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEB91DBC9B9A006A922B /* PersonModel.m */; };
 		C390BEC11DBC9B9A006A922B /* UIButton+CS_BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEBB1DBC9B9A006A922B /* UIButton+CS_BackgroundColor.m */; };
 		C390BEC21DBC9B9A006A922B /* UIControl+CS_FixMultiClick.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEBD1DBC9B9A006A922B /* UIControl+CS_FixMultiClick.m */; };
+		C390BECA1DBC9B9A006A922B /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEC91DBC9B9A006A922B /* KVCViewController.m */; };
+		C390BECD1DBC9B9A006A922B /* KVOViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BECC1DBC9B9A006A922B /* KVOViewControllerOne.m */; };
+		C390BED41DBC9B9A006A922B /* KVOViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BECF1DBC9B9A006A922B /* KVOViewControllerTwo.m */; };
+		C390BED51DBC9B9A006A922B /* PersonObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BED11DBC9B9A006A922B /* PersonObserver.m */; };
+		C390BED61DBC9B9A006A922B /* PersonForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BED31DBC9B9A006A922B /* PersonForKVO.m */; };
+		C390BED91DBC9B9A006A922B /* CCTestRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BED81DBC9B9A006A922B /* CCTestRunLoopViewController.m */; };
 		C3EE398F1D27C0500023BB97 /* TableViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */; };
 		C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39921D27C4AE0023BB97 /* TableViewControllerTwo.m */; };
 		C3EE39971D29FD750023BB97 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39961D29FD750023BB97 /* TableViewControllerThree.m */; };
@@ -383,6 +389,18 @@
 		C390BEBB1DBC9B9A006A922B /* UIButton+CS_BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CS_BackgroundColor.m"; sourceTree = "<group>"; };
 		C390BEBC1DBC9B9A006A922B /* UIControl+CS_FixMultiClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CS_FixMultiClick.h"; sourceTree = "<group>"; };
 		C390BEBD1DBC9B9A006A922B /* UIControl+CS_FixMultiClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CS_FixMultiClick.m"; sourceTree = "<group>"; };
+		C390BEC81DBC9B9A006A922B /* KVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		C390BEC91DBC9B9A006A922B /* KVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
+		C390BECB1DBC9B9A006A922B /* KVOViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewControllerOne.h; sourceTree = "<group>"; };
+		C390BECC1DBC9B9A006A922B /* KVOViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewControllerOne.m; sourceTree = "<group>"; };
+		C390BECE1DBC9B9A006A922B /* KVOViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewControllerTwo.h; sourceTree = "<group>"; };
+		C390BECF1DBC9B9A006A922B /* KVOViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewControllerTwo.m; sourceTree = "<group>"; };
+		C390BED01DBC9B9A006A922B /* PersonObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonObserver.h; sourceTree = "<group>"; };
+		C390BED11DBC9B9A006A922B /* PersonObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonObserver.m; sourceTree = "<group>"; };
+		C390BED21DBC9B9A006A922B /* PersonForKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonForKVO.h; sourceTree = "<group>"; };
+		C390BED31DBC9B9A006A922B /* PersonForKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonForKVO.m; sourceTree = "<group>"; };
+		C390BED71DBC9B9A006A922B /* CCTestRunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTestRunLoopViewController.h; sourceTree = "<group>"; };
+		C390BED81DBC9B9A006A922B /* CCTestRunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTestRunLoopViewController.m; sourceTree = "<group>"; };
 		C3EE398D1D27C0500023BB97 /* TableViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerOne.h; sourceTree = "<group>"; };
 		C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerOne.m; sourceTree = "<group>"; };
 		C3EE39911D27C4AE0023BB97 /* TableViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerTwo.h; sourceTree = "<group>"; };
@@ -434,6 +452,11 @@
 		C3033CBC1CD0A2AB00B56597 /* Method-1~100 */ = {
 			isa = PBXGroup;
 			children = (
+				C390BEC71DBC9B9A006A922B /* Method-49 */,
+				C390BEC61DBC9B9A006A922B /* Method-48 */,
+				C390BEC51DBC9B9A006A922B /* Method-47 */,
+				C390BEC41DBC9B9A006A922B /* Method-46 */,
+				C390BEC31DBC9B9A006A922B /* Method-45 */,
 				C390BE951DBC9B9A006A922B /* Method-44 */,
 				C390BE941DBC9B9A006A922B /* Method-43 */,
 				C390BE931DBC9B9A006A922B /* Method-42 */,
@@ -990,6 +1013,53 @@
 			name = "Method-44";
 			sourceTree = "<group>";
 		};
+		C390BEC31DBC9B9A006A922B /* Method-45 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BEC81DBC9B9A006A922B /* KVCViewController.h */,
+				C390BEC91DBC9B9A006A922B /* KVCViewController.m */,
+			);
+			name = "Method-45";
+			sourceTree = "<group>";
+		};
+		C390BEC41DBC9B9A006A922B /* Method-46 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BECB1DBC9B9A006A922B /* KVOViewControllerOne.h */,
+				C390BECC1DBC9B9A006A922B /* KVOViewControllerOne.m */,
+			);
+			name = "Method-46";
+			sourceTree = "<group>";
+		};
+		C390BEC51DBC9B9A006A922B /* Method-47 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Method-47";
+			sourceTree = "<group>";
+		};
+		C390BEC61DBC9B9A006A922B /* Method-48 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BECE1DBC9B9A006A922B /* KVOViewControllerTwo.h */,
+				C390BECF1DBC9B9A006A922B /* KVOViewControllerTwo.m */,
+				C390BED01DBC9B9A006A922B /* PersonObserver.h */,
+				C390BED11DBC9B9A006A922B /* PersonObserver.m */,
+				C390BED21DBC9B9A006A922B /* PersonForKVO.h */,
+				C390BED31DBC9B9A006A922B /* PersonForKVO.m */,
+			);
+			name = "Method-48";
+			sourceTree = "<group>";
+		};
+		C390BEC71DBC9B9A006A922B /* Method-49 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BED71DBC9B9A006A922B /* CCTestRunLoopViewController.h */,
+				C390BED81DBC9B9A006A922B /* CCTestRunLoopViewController.m */,
+			);
+			name = "Method-49";
+			sourceTree = "<group>";
+		};
 		C3EE398C1D27BFF00023BB97 /* Method-11 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1171,6 +1241,7 @@
 				C390BDA21DBC9B9A006A922B /* DWPublishButton.m in Sources */,
 				C390BDB71DBC9B9A006A922B /* MasonryOneViewController.m in Sources */,
 				C390BD691DBC9B9A006A922B /* STUI.m in Sources */,
+				C390BECA1DBC9B9A006A922B /* KVCViewController.m in Sources */,
 				C390BD761DBC9B9A006A922B /* TravelNav0Controller.m in Sources */,
 				C390BE7A1DBC9B9A006A922B /* Header.m in Sources */,
 				C390BE8E1DBC9B9A006A922B /* CircleLayout.m in Sources */,
@@ -1183,6 +1254,7 @@
 				C390BE3A1DBC9B9A006A922B /* View+MASAdditions.m in Sources */,
 				C390BEB31DBC9B9A006A922B /* NSObject+AssociatedObject.m in Sources */,
 				C390BD5C1DBC9B9A006A922B /* NavSecondViewControllerOne.m in Sources */,
+				C390BED91DBC9B9A006A922B /* CCTestRunLoopViewController.m in Sources */,
 				C390BDA61DBC9B9A006A922B /* TestKeyWindow.m in Sources */,
 				C390BD821DBC9B9A006A922B /* PopAnimation.m in Sources */,
 				C390BEC21DBC9B9A006A922B /* UIControl+CS_FixMultiClick.m in Sources */,
@@ -1191,6 +1263,7 @@
 				C3EE39C81D2A0BFF0023BB97 /* TableViewControllerSeven.m in Sources */,
 				C390BE751DBC9B9A006A922B /* MyCollectionViewCell.m in Sources */,
 				C3EE39C01D2A06560023BB97 /* DataModelFrame.m in Sources */,
+				C390BECD1DBC9B9A006A922B /* KVOViewControllerOne.m in Sources */,
 				C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */,
 				C390BE371DBC9B9A006A922B /* MASViewConstraint.m in Sources */,
 				C390BDA01DBC9B9A006A922B /* DWTabBarController.m in Sources */,
@@ -1211,6 +1284,7 @@
 				C390BD811DBC9B9A006A922B /* NavigationInteractiveTransition.m in Sources */,
 				C390BEA11DBC9B9A006A922B /* GCDViewController.m in Sources */,
 				C390BE321DBC9B9A006A922B /* MASCompositeConstraint.m in Sources */,
+				C390BED61DBC9B9A006A922B /* PersonForKVO.m in Sources */,
 				C390BDF01DBC9B9A006A922B /* HeaderFooterViewController.m in Sources */,
 				C390BDEA1DBC9B9A006A922B /* CompositeController.m in Sources */,
 				C3EE39A41D2A01F40023BB97 /* CustomCell.m in Sources */,
@@ -1232,6 +1306,7 @@
 				C390BE5E1DBC9B9A006A922B /* CalendarDataSource.m in Sources */,
 				C390BEC01DBC9B9A006A922B /* PersonModel.m in Sources */,
 				C390BE9C1DBC9B9A006A922B /* NSThreadViewController.m in Sources */,
+				C390BED41DBC9B9A006A922B /* KVOViewControllerTwo.m in Sources */,
 				C390BD751DBC9B9A006A922B /* TravelNavController.m in Sources */,
 				C390BE601DBC9B9A006A922B /* CalendarEventCell.m in Sources */,
 				C390BD6A1DBC9B9A006A922B /* UIView+ST.m in Sources */,
@@ -1277,6 +1352,7 @@
 				C38008771CC7717D0080E63B /* main.m in Sources */,
 				C390BE981DBC9B9A006A922B /* PthreadViewController.m in Sources */,
 				C390BDEE1DBC9B9A006A922B /* ScrollViewComplexController.m in Sources */,
+				C390BED51DBC9B9A006A922B /* PersonObserver.m in Sources */,
 				C390BD961DBC9B9A006A922B /* HomeViewController.m in Sources */,
 				C390BE771DBC9B9A006A922B /* MyDetailsViewController.m in Sources */,
 				C390BEA51DBC9B9A006A922B /* NSOperationViewController.m in Sources */,
