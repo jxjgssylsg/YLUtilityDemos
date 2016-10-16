@@ -164,6 +164,17 @@
 // 方法48:RunLoop
 - (void)testRunLoop;
 
+// 方法49:NotificationCenter 使用
+- (void)testNotificationCenter;
+
+// 方法50:NotificationCenter post 线程转发
+- (void)testNotificationCenterMultiThread;
+
+// 方法51:LocalNotification 本地通知
+- (void)testLocalNotification;
+
+// 方法52:RemoteNotification 本地通知
+- (void)testRemoteNotification;
 
 
 

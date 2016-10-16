@@ -135,6 +135,13 @@
 		C390BED51DBC9B9A006A922B /* PersonObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BED11DBC9B9A006A922B /* PersonObserver.m */; };
 		C390BED61DBC9B9A006A922B /* PersonForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BED31DBC9B9A006A922B /* PersonForKVO.m */; };
 		C390BED91DBC9B9A006A922B /* CCTestRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BED81DBC9B9A006A922B /* CCTestRunLoopViewController.m */; };
+		C390BEE41DBC9B9A006A922B /* NotificationCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEDE1DBC9B9A006A922B /* NotificationCenterViewController.m */; };
+		C390BEE51DBC9B9A006A922B /* NotificationCenterSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEE01DBC9B9A006A922B /* NotificationCenterSecondViewController.m */; };
+		C390BEE61DBC9B9A006A922B /* NotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEE21DBC9B9A006A922B /* NotificationObserver.m */; };
+		C390BEE71DBC9B9A006A922B /* NSNotificationCenterOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C390BEE31DBC9B9A006A922B /* NSNotificationCenterOne.storyboard */; };
+		C390BEEA1DBC9B9A006A922B /* NotificationMultiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEE91DBC9B9A006A922B /* NotificationMultiThreadViewController.m */; };
+		C390BEEF1DBC9B9A006A922B /* AppDelegateForLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEEC1DBC9B9A006A922B /* AppDelegateForLocalNotification.m */; };
+		C390BEF01DBC9B9A006A922B /* LocalNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEEE1DBC9B9A006A922B /* LocalNotificationViewController.m */; };
 		C3EE398F1D27C0500023BB97 /* TableViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */; };
 		C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39921D27C4AE0023BB97 /* TableViewControllerTwo.m */; };
 		C3EE39971D29FD750023BB97 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39961D29FD750023BB97 /* TableViewControllerThree.m */; };
@@ -401,6 +408,19 @@
 		C390BED31DBC9B9A006A922B /* PersonForKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonForKVO.m; sourceTree = "<group>"; };
 		C390BED71DBC9B9A006A922B /* CCTestRunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTestRunLoopViewController.h; sourceTree = "<group>"; };
 		C390BED81DBC9B9A006A922B /* CCTestRunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTestRunLoopViewController.m; sourceTree = "<group>"; };
+		C390BEDD1DBC9B9A006A922B /* NotificationCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenterViewController.h; sourceTree = "<group>"; };
+		C390BEDE1DBC9B9A006A922B /* NotificationCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterViewController.m; sourceTree = "<group>"; };
+		C390BEDF1DBC9B9A006A922B /* NotificationCenterSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenterSecondViewController.h; sourceTree = "<group>"; };
+		C390BEE01DBC9B9A006A922B /* NotificationCenterSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterSecondViewController.m; sourceTree = "<group>"; };
+		C390BEE11DBC9B9A006A922B /* NotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationObserver.h; sourceTree = "<group>"; };
+		C390BEE21DBC9B9A006A922B /* NotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationObserver.m; sourceTree = "<group>"; };
+		C390BEE31DBC9B9A006A922B /* NSNotificationCenterOne.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NSNotificationCenterOne.storyboard; sourceTree = "<group>"; };
+		C390BEE81DBC9B9A006A922B /* NotificationMultiThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMultiThreadViewController.h; sourceTree = "<group>"; };
+		C390BEE91DBC9B9A006A922B /* NotificationMultiThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationMultiThreadViewController.m; sourceTree = "<group>"; };
+		C390BEEB1DBC9B9A006A922B /* AppDelegateForLocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateForLocalNotification.h; sourceTree = "<group>"; };
+		C390BEEC1DBC9B9A006A922B /* AppDelegateForLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateForLocalNotification.m; sourceTree = "<group>"; };
+		C390BEED1DBC9B9A006A922B /* LocalNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationViewController.h; sourceTree = "<group>"; };
+		C390BEEE1DBC9B9A006A922B /* LocalNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationViewController.m; sourceTree = "<group>"; };
 		C3EE398D1D27C0500023BB97 /* TableViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerOne.h; sourceTree = "<group>"; };
 		C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerOne.m; sourceTree = "<group>"; };
 		C3EE39911D27C4AE0023BB97 /* TableViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerTwo.h; sourceTree = "<group>"; };
@@ -452,6 +472,9 @@
 		C3033CBC1CD0A2AB00B56597 /* Method-1~100 */ = {
 			isa = PBXGroup;
 			children = (
+				C390BEDC1DBC9B9A006A922B /* Method-52 */,
+				C390BEDB1DBC9B9A006A922B /* Method-51 */,
+				C390BEDA1DBC9B9A006A922B /* Method-50 */,
 				C390BEC71DBC9B9A006A922B /* Method-49 */,
 				C390BEC61DBC9B9A006A922B /* Method-48 */,
 				C390BEC51DBC9B9A006A922B /* Method-47 */,
@@ -1034,13 +1057,6 @@
 		C390BEC51DBC9B9A006A922B /* Method-47 */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = "Method-47";
-			sourceTree = "<group>";
-		};
-		C390BEC61DBC9B9A006A922B /* Method-48 */ = {
-			isa = PBXGroup;
-			children = (
 				C390BECE1DBC9B9A006A922B /* KVOViewControllerTwo.h */,
 				C390BECF1DBC9B9A006A922B /* KVOViewControllerTwo.m */,
 				C390BED01DBC9B9A006A922B /* PersonObserver.h */,
@@ -1048,16 +1064,57 @@
 				C390BED21DBC9B9A006A922B /* PersonForKVO.h */,
 				C390BED31DBC9B9A006A922B /* PersonForKVO.m */,
 			);
+			name = "Method-47";
+			sourceTree = "<group>";
+		};
+		C390BEC61DBC9B9A006A922B /* Method-48 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BED71DBC9B9A006A922B /* CCTestRunLoopViewController.h */,
+				C390BED81DBC9B9A006A922B /* CCTestRunLoopViewController.m */,
+			);
 			name = "Method-48";
 			sourceTree = "<group>";
 		};
 		C390BEC71DBC9B9A006A922B /* Method-49 */ = {
 			isa = PBXGroup;
 			children = (
-				C390BED71DBC9B9A006A922B /* CCTestRunLoopViewController.h */,
-				C390BED81DBC9B9A006A922B /* CCTestRunLoopViewController.m */,
+				C390BEDD1DBC9B9A006A922B /* NotificationCenterViewController.h */,
+				C390BEDE1DBC9B9A006A922B /* NotificationCenterViewController.m */,
+				C390BEDF1DBC9B9A006A922B /* NotificationCenterSecondViewController.h */,
+				C390BEE01DBC9B9A006A922B /* NotificationCenterSecondViewController.m */,
+				C390BEE11DBC9B9A006A922B /* NotificationObserver.h */,
+				C390BEE21DBC9B9A006A922B /* NotificationObserver.m */,
+				C390BEE31DBC9B9A006A922B /* NSNotificationCenterOne.storyboard */,
 			);
 			name = "Method-49";
+			sourceTree = "<group>";
+		};
+		C390BEDA1DBC9B9A006A922B /* Method-50 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BEE81DBC9B9A006A922B /* NotificationMultiThreadViewController.h */,
+				C390BEE91DBC9B9A006A922B /* NotificationMultiThreadViewController.m */,
+			);
+			name = "Method-50";
+			sourceTree = "<group>";
+		};
+		C390BEDB1DBC9B9A006A922B /* Method-51 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BEEB1DBC9B9A006A922B /* AppDelegateForLocalNotification.h */,
+				C390BEEC1DBC9B9A006A922B /* AppDelegateForLocalNotification.m */,
+				C390BEED1DBC9B9A006A922B /* LocalNotificationViewController.h */,
+				C390BEEE1DBC9B9A006A922B /* LocalNotificationViewController.m */,
+			);
+			name = "Method-51";
+			sourceTree = "<group>";
+		};
+		C390BEDC1DBC9B9A006A922B /* Method-52 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Method-52";
 			sourceTree = "<group>";
 		};
 		C3EE398C1D27BFF00023BB97 /* Method-11 */ = {
@@ -1210,6 +1267,7 @@
 				C3EE39AE1D2A03280023BB97 /* 10.png in Resources */,
 				C34FEB1B1D10EB3F006E6A51 /* 6.png in Resources */,
 				C390BE5D1DBC9B9A006A922B /* CalendarCollectionViewControllerTwoSB.storyboard in Resources */,
+				C390BEE71DBC9B9A006A922B /* NSNotificationCenterOne.storyboard in Resources */,
 				C390BE741DBC9B9A006A922B /* MyCollectionViewControllerThree.storyboard in Resources */,
 				C390BD4F1DBC9B9A006A922B /* imageInfo.plist in Resources */,
 				C34FEB171D10EB3F006E6A51 /* 2.png in Resources */,
@@ -1253,9 +1311,11 @@
 				C390BDAF1DBC9B9A006A922B /* TimerTestViewController.m in Sources */,
 				C390BE3A1DBC9B9A006A922B /* View+MASAdditions.m in Sources */,
 				C390BEB31DBC9B9A006A922B /* NSObject+AssociatedObject.m in Sources */,
+				C390BEEF1DBC9B9A006A922B /* AppDelegateForLocalNotification.m in Sources */,
 				C390BD5C1DBC9B9A006A922B /* NavSecondViewControllerOne.m in Sources */,
 				C390BED91DBC9B9A006A922B /* CCTestRunLoopViewController.m in Sources */,
 				C390BDA61DBC9B9A006A922B /* TestKeyWindow.m in Sources */,
+				C390BEE51DBC9B9A006A922B /* NotificationCenterSecondViewController.m in Sources */,
 				C390BD821DBC9B9A006A922B /* PopAnimation.m in Sources */,
 				C390BEC21DBC9B9A006A922B /* UIControl+CS_FixMultiClick.m in Sources */,
 				C390BEC11DBC9B9A006A922B /* UIButton+CS_BackgroundColor.m in Sources */,
@@ -1265,6 +1325,7 @@
 				C3EE39C01D2A06560023BB97 /* DataModelFrame.m in Sources */,
 				C390BECD1DBC9B9A006A922B /* KVOViewControllerOne.m in Sources */,
 				C3033CC01CD0A8AA00B56597 /* QREncoding.m in Sources */,
+				C390BEE61DBC9B9A006A922B /* NotificationObserver.m in Sources */,
 				C390BE371DBC9B9A006A922B /* MASViewConstraint.m in Sources */,
 				C390BDA01DBC9B9A006A922B /* DWTabBarController.m in Sources */,
 				C390BDB01DBC9B9A006A922B /* NSTimer+Blocks.m in Sources */,
@@ -1298,6 +1359,7 @@
 				C390BDE81DBC9B9A006A922B /* RemakeContraintsController.m in Sources */,
 				C390BE351DBC9B9A006A922B /* MASLayoutConstraint.m in Sources */,
 				C390BE8C1DBC9B9A006A922B /* CollectionViewControllerFive.m in Sources */,
+				C390BEE41DBC9B9A006A922B /* NotificationCenterViewController.m in Sources */,
 				C390BD681DBC9B9A006A922B /* STConst.m in Sources */,
 				C390BE781DBC9B9A006A922B /* Footer.m in Sources */,
 				C390BE761DBC9B9A006A922B /* UIColor+RandomColor.m in Sources */,
@@ -1306,6 +1368,7 @@
 				C390BE5E1DBC9B9A006A922B /* CalendarDataSource.m in Sources */,
 				C390BEC01DBC9B9A006A922B /* PersonModel.m in Sources */,
 				C390BE9C1DBC9B9A006A922B /* NSThreadViewController.m in Sources */,
+				C390BEF01DBC9B9A006A922B /* LocalNotificationViewController.m in Sources */,
 				C390BED41DBC9B9A006A922B /* KVOViewControllerTwo.m in Sources */,
 				C390BD751DBC9B9A006A922B /* TravelNavController.m in Sources */,
 				C390BE601DBC9B9A006A922B /* CalendarEventCell.m in Sources */,
@@ -1321,6 +1384,7 @@
 				C390BE331DBC9B9A006A922B /* MASConstraint.m in Sources */,
 				C3514AF21CD345B6002F997C /* CalendarViewController.m in Sources */,
 				C390BDF31DBC9B9A006A922B /* TestCell.m in Sources */,
+				C390BEEA1DBC9B9A006A922B /* NotificationMultiThreadViewController.m in Sources */,
 				C390BD981DBC9B9A006A922B /* SettingViewController.m in Sources */,
 				C390BDA11DBC9B9A006A922B /* DWTabBar.m in Sources */,
 				C390BE361DBC9B9A006A922B /* MASViewAttribute.m in Sources */,
