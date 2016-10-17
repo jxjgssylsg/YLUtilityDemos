@@ -142,6 +142,21 @@
 		C390BEEA1DBC9B9A006A922B /* NotificationMultiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEE91DBC9B9A006A922B /* NotificationMultiThreadViewController.m */; };
 		C390BEEF1DBC9B9A006A922B /* AppDelegateForLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEEC1DBC9B9A006A922B /* AppDelegateForLocalNotification.m */; };
 		C390BEF01DBC9B9A006A922B /* LocalNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEEE1DBC9B9A006A922B /* LocalNotificationViewController.m */; };
+		C390BEFE1DBC9B9A006A922B /* NSCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEF81DBC9B9A006A922B /* NSCodingViewController.m */; };
+		C390BEFF1DBC9B9A006A922B /* NSCAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEFA1DBC9B9A006A922B /* NSCAnimal.m */; };
+		C390BF001DBC9B9A006A922B /* NSCDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BEFC1DBC9B9A006A922B /* NSCDog.m */; };
+		C390BF011DBC9B9A006A922B /* NSCoding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C390BEFD1DBC9B9A006A922B /* NSCoding.storyboard */; };
+		C390BF081DBC9B9A006A922B /* SqlitePeople.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF031DBC9B9A006A922B /* SqlitePeople.m */; };
+		C390BF091DBC9B9A006A922B /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF051DBC9B9A006A922B /* SqliteManager.m */; };
+		C390BF0A1DBC9B9A006A922B /* SqliteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF071DBC9B9A006A922B /* SqliteViewController.m */; };
+		C390BF0E1DBC9B9A006A922B /* FMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF0C1DBC9B9A006A922B /* FMDBViewController.m */; };
+		C390BF0F1DBC9B9A006A922B /* FMDBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C390BF0D1DBC9B9A006A922B /* FMDBViewController.xib */; };
+		C390BF1D1DBC9B9A006A922B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF121DBC9B9A006A922B /* FMDatabase.m */; };
+		C390BF1E1DBC9B9A006A922B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF141DBC9B9A006A922B /* FMDatabaseAdditions.m */; };
+		C390BF1F1DBC9B9A006A922B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF161DBC9B9A006A922B /* FMDatabasePool.m */; };
+		C390BF201DBC9B9A006A922B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF181DBC9B9A006A922B /* FMDatabaseQueue.m */; };
+		C390BF211DBC9B9A006A922B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF1B1DBC9B9A006A922B /* FMResultSet.m */; };
+		C390BF241DBC9B9A006A922B /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C390BF231DBC9B9A006A922B /* CoreDataViewController.m */; };
 		C3EE398F1D27C0500023BB97 /* TableViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */; };
 		C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39921D27C4AE0023BB97 /* TableViewControllerTwo.m */; };
 		C3EE39971D29FD750023BB97 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE39961D29FD750023BB97 /* TableViewControllerThree.m */; };
@@ -421,6 +436,37 @@
 		C390BEEC1DBC9B9A006A922B /* AppDelegateForLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateForLocalNotification.m; sourceTree = "<group>"; };
 		C390BEED1DBC9B9A006A922B /* LocalNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationViewController.h; sourceTree = "<group>"; };
 		C390BEEE1DBC9B9A006A922B /* LocalNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationViewController.m; sourceTree = "<group>"; };
+		C390BEF61DBC9B9A006A922B /* NSUserDefaultsKnowledge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultsKnowledge.h; sourceTree = "<group>"; };
+		C390BEF71DBC9B9A006A922B /* NSCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCodingViewController.h; sourceTree = "<group>"; };
+		C390BEF81DBC9B9A006A922B /* NSCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCodingViewController.m; sourceTree = "<group>"; };
+		C390BEF91DBC9B9A006A922B /* NSCAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCAnimal.h; sourceTree = "<group>"; };
+		C390BEFA1DBC9B9A006A922B /* NSCAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCAnimal.m; sourceTree = "<group>"; };
+		C390BEFB1DBC9B9A006A922B /* NSCDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCDog.h; sourceTree = "<group>"; };
+		C390BEFC1DBC9B9A006A922B /* NSCDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCDog.m; sourceTree = "<group>"; };
+		C390BEFD1DBC9B9A006A922B /* NSCoding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NSCoding.storyboard; sourceTree = "<group>"; };
+		C390BF021DBC9B9A006A922B /* SqlitePeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlitePeople.h; sourceTree = "<group>"; };
+		C390BF031DBC9B9A006A922B /* SqlitePeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlitePeople.m; sourceTree = "<group>"; };
+		C390BF041DBC9B9A006A922B /* SqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteManager.h; sourceTree = "<group>"; };
+		C390BF051DBC9B9A006A922B /* SqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
+		C390BF061DBC9B9A006A922B /* SqliteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteViewController.h; sourceTree = "<group>"; };
+		C390BF071DBC9B9A006A922B /* SqliteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteViewController.m; sourceTree = "<group>"; };
+		C390BF0B1DBC9B9A006A922B /* FMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBViewController.h; sourceTree = "<group>"; };
+		C390BF0C1DBC9B9A006A922B /* FMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBViewController.m; sourceTree = "<group>"; };
+		C390BF0D1DBC9B9A006A922B /* FMDBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMDBViewController.xib; sourceTree = "<group>"; };
+		C390BF111DBC9B9A006A922B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		C390BF121DBC9B9A006A922B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		C390BF131DBC9B9A006A922B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C390BF141DBC9B9A006A922B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		C390BF151DBC9B9A006A922B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		C390BF161DBC9B9A006A922B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		C390BF171DBC9B9A006A922B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C390BF181DBC9B9A006A922B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		C390BF191DBC9B9A006A922B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		C390BF1A1DBC9B9A006A922B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		C390BF1B1DBC9B9A006A922B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		C390BF1C1DBC9B9A006A922B /* MacroUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroUtils.h; sourceTree = "<group>"; };
+		C390BF221DBC9B9A006A922B /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		C390BF231DBC9B9A006A922B /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
 		C3EE398D1D27C0500023BB97 /* TableViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerOne.h; sourceTree = "<group>"; };
 		C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerOne.m; sourceTree = "<group>"; };
 		C3EE39911D27C4AE0023BB97 /* TableViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerTwo.h; sourceTree = "<group>"; };
@@ -472,6 +518,11 @@
 		C3033CBC1CD0A2AB00B56597 /* Method-1~100 */ = {
 			isa = PBXGroup;
 			children = (
+				C390BEF51DBC9B9A006A922B /* Method-57 */,
+				C390BEF41DBC9B9A006A922B /* Method-56 */,
+				C390BEF31DBC9B9A006A922B /* Method-55 */,
+				C390BEF21DBC9B9A006A922B /* Method-54 */,
+				C390BEF11DBC9B9A006A922B /* Method-53 */,
 				C390BEDC1DBC9B9A006A922B /* Method-52 */,
 				C390BEDB1DBC9B9A006A922B /* Method-51 */,
 				C390BEDA1DBC9B9A006A922B /* Method-50 */,
@@ -1117,6 +1168,80 @@
 			name = "Method-52";
 			sourceTree = "<group>";
 		};
+		C390BEF11DBC9B9A006A922B /* Method-53 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BEF61DBC9B9A006A922B /* NSUserDefaultsKnowledge.h */,
+			);
+			name = "Method-53";
+			sourceTree = "<group>";
+		};
+		C390BEF21DBC9B9A006A922B /* Method-54 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BEF71DBC9B9A006A922B /* NSCodingViewController.h */,
+				C390BEF81DBC9B9A006A922B /* NSCodingViewController.m */,
+				C390BEF91DBC9B9A006A922B /* NSCAnimal.h */,
+				C390BEFA1DBC9B9A006A922B /* NSCAnimal.m */,
+				C390BEFB1DBC9B9A006A922B /* NSCDog.h */,
+				C390BEFC1DBC9B9A006A922B /* NSCDog.m */,
+				C390BEFD1DBC9B9A006A922B /* NSCoding.storyboard */,
+			);
+			name = "Method-54";
+			sourceTree = "<group>";
+		};
+		C390BEF31DBC9B9A006A922B /* Method-55 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BF021DBC9B9A006A922B /* SqlitePeople.h */,
+				C390BF031DBC9B9A006A922B /* SqlitePeople.m */,
+				C390BF041DBC9B9A006A922B /* SqliteManager.h */,
+				C390BF051DBC9B9A006A922B /* SqliteManager.m */,
+				C390BF061DBC9B9A006A922B /* SqliteViewController.h */,
+				C390BF071DBC9B9A006A922B /* SqliteViewController.m */,
+			);
+			name = "Method-55";
+			sourceTree = "<group>";
+		};
+		C390BEF41DBC9B9A006A922B /* Method-56 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BF101DBC9B9A006A922B /* Lib */,
+				C390BF0B1DBC9B9A006A922B /* FMDBViewController.h */,
+				C390BF0C1DBC9B9A006A922B /* FMDBViewController.m */,
+				C390BF0D1DBC9B9A006A922B /* FMDBViewController.xib */,
+			);
+			name = "Method-56";
+			sourceTree = "<group>";
+		};
+		C390BEF51DBC9B9A006A922B /* Method-57 */ = {
+			isa = PBXGroup;
+			children = (
+				C390BF221DBC9B9A006A922B /* CoreDataViewController.h */,
+				C390BF231DBC9B9A006A922B /* CoreDataViewController.m */,
+			);
+			name = "Method-57";
+			sourceTree = "<group>";
+		};
+		C390BF101DBC9B9A006A922B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C390BF111DBC9B9A006A922B /* FMDatabase.h */,
+				C390BF121DBC9B9A006A922B /* FMDatabase.m */,
+				C390BF131DBC9B9A006A922B /* FMDatabaseAdditions.h */,
+				C390BF141DBC9B9A006A922B /* FMDatabaseAdditions.m */,
+				C390BF151DBC9B9A006A922B /* FMDatabasePool.h */,
+				C390BF161DBC9B9A006A922B /* FMDatabasePool.m */,
+				C390BF171DBC9B9A006A922B /* FMDatabaseQueue.h */,
+				C390BF181DBC9B9A006A922B /* FMDatabaseQueue.m */,
+				C390BF191DBC9B9A006A922B /* FMDB.h */,
+				C390BF1A1DBC9B9A006A922B /* FMResultSet.h */,
+				C390BF1B1DBC9B9A006A922B /* FMResultSet.m */,
+				C390BF1C1DBC9B9A006A922B /* MacroUtils.h */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
 		C3EE398C1D27BFF00023BB97 /* Method-11 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1255,6 +1380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C390BF0F1DBC9B9A006A922B /* FMDBViewController.xib in Resources */,
 				C3EE39A51D2A01F40023BB97 /* CustomCell.xib in Resources */,
 				C38008821CC7717D0080E63B /* Assets.xcassets in Resources */,
 				C390BE7B1DBC9B9A006A922B /* Header.xib in Resources */,
@@ -1286,6 +1412,7 @@
 				C390BD851DBC9B9A006A922B /* NavSampleThree.storyboard in Resources */,
 				C390BEA21DBC9B9A006A922B /* GCDViewController.xib in Resources */,
 				C390BE9D1DBC9B9A006A922B /* NSThreadViewController.xib in Resources */,
+				C390BF011DBC9B9A006A922B /* NSCoding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1319,6 +1446,7 @@
 				C390BD821DBC9B9A006A922B /* PopAnimation.m in Sources */,
 				C390BEC21DBC9B9A006A922B /* UIControl+CS_FixMultiClick.m in Sources */,
 				C390BEC11DBC9B9A006A922B /* UIButton+CS_BackgroundColor.m in Sources */,
+				C390BF241DBC9B9A006A922B /* CoreDataViewController.m in Sources */,
 				C390BD831DBC9B9A006A922B /* NavViewControllerForThree.m in Sources */,
 				C3EE39C81D2A0BFF0023BB97 /* TableViewControllerSeven.m in Sources */,
 				C390BE751DBC9B9A006A922B /* MyCollectionViewCell.m in Sources */,
@@ -1329,7 +1457,9 @@
 				C390BE371DBC9B9A006A922B /* MASViewConstraint.m in Sources */,
 				C390BDA01DBC9B9A006A922B /* DWTabBarController.m in Sources */,
 				C390BDB01DBC9B9A006A922B /* NSTimer+Blocks.m in Sources */,
+				C390BF001DBC9B9A006A922B /* NSCDog.m in Sources */,
 				C390BEB01DBC9B9A006A922B /* RuntimeViewController.m in Sources */,
+				C390BF081DBC9B9A006A922B /* SqlitePeople.m in Sources */,
 				C390BDAE1DBC9B9A006A922B /* NSTimer+BFEExtension.m in Sources */,
 				C390BD941DBC9B9A006A922B /* AboutViewController.m in Sources */,
 				C390BE381DBC9B9A006A922B /* NSArray+MASAdditions.m in Sources */,
@@ -1359,7 +1489,10 @@
 				C390BDE81DBC9B9A006A922B /* RemakeContraintsController.m in Sources */,
 				C390BE351DBC9B9A006A922B /* MASLayoutConstraint.m in Sources */,
 				C390BE8C1DBC9B9A006A922B /* CollectionViewControllerFive.m in Sources */,
+				C390BF201DBC9B9A006A922B /* FMDatabaseQueue.m in Sources */,
+				C390BF0A1DBC9B9A006A922B /* SqliteViewController.m in Sources */,
 				C390BEE41DBC9B9A006A922B /* NotificationCenterViewController.m in Sources */,
+				C390BF1F1DBC9B9A006A922B /* FMDatabasePool.m in Sources */,
 				C390BD681DBC9B9A006A922B /* STConst.m in Sources */,
 				C390BE781DBC9B9A006A922B /* Footer.m in Sources */,
 				C390BE761DBC9B9A006A922B /* UIColor+RandomColor.m in Sources */,
@@ -1370,13 +1503,16 @@
 				C390BE9C1DBC9B9A006A922B /* NSThreadViewController.m in Sources */,
 				C390BEF01DBC9B9A006A922B /* LocalNotificationViewController.m in Sources */,
 				C390BED41DBC9B9A006A922B /* KVOViewControllerTwo.m in Sources */,
+				C390BF1E1DBC9B9A006A922B /* FMDatabaseAdditions.m in Sources */,
 				C390BD751DBC9B9A006A922B /* TravelNavController.m in Sources */,
+				C390BEFE1DBC9B9A006A922B /* NSCodingViewController.m in Sources */,
 				C390BE601DBC9B9A006A922B /* CalendarEventCell.m in Sources */,
 				C390BD6A1DBC9B9A006A922B /* UIView+ST.m in Sources */,
 				C390BE391DBC9B9A006A922B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				C390BDEC1DBC9B9A006A922B /* BasicAnimatedController.m in Sources */,
 				C390BD971DBC9B9A006A922B /* SearchViewController.m in Sources */,
 				C390BE3B1DBC9B9A006A922B /* ViewController+MASAdditions.m in Sources */,
+				C390BEFF1DBC9B9A006A922B /* NSCAnimal.m in Sources */,
 				C380087A1CC7717D0080E63B /* AppDelegate.m in Sources */,
 				C3EE399F1D2A01260023BB97 /* TableViewControllerFive.m in Sources */,
 				C390BDC01DBC9B9A006A922B /* MasonryThreeViewController.m in Sources */,
@@ -1399,16 +1535,20 @@
 				C390BD771DBC9B9A006A922B /* TravelNav1Controller.m in Sources */,
 				C390BDB81DBC9B9A006A922B /* AYTableViewCell.m in Sources */,
 				C390BE4A1DBC9B9A006A922B /* CollectionViewControllerOne.m in Sources */,
+				C390BF211DBC9B9A006A922B /* FMResultSet.m in Sources */,
 				C390BDC81DBC9B9A006A922B /* MasonryFiveViewController.m in Sources */,
 				C390BEB21DBC9B9A006A922B /* MessageForwarding.m in Sources */,
 				C390BE4B1DBC9B9A006A922B /* CollectionViewCellOne.m in Sources */,
+				C390BF0E1DBC9B9A006A922B /* FMDBViewController.m in Sources */,
 				C3EE399B1D2A00380023BB97 /* TableViewControllerFour.m in Sources */,
 				C390BE5C1DBC9B9A006A922B /* CalendarCollectionViewControllerTwo.m in Sources */,
 				C3EE39931D27C4AE0023BB97 /* TableViewControllerTwo.m in Sources */,
+				C390BF1D1DBC9B9A006A922B /* FMDatabase.m in Sources */,
 				C390BDE71DBC9B9A006A922B /* UpdateConstraintsController.m in Sources */,
 				C390BE831DBC9B9A006A922B /* CustomCollectionViewLayout.m in Sources */,
 				C3EE39BE1D2A06560023BB97 /* DataModel.m in Sources */,
 				C390BDBC1DBC9B9A006A922B /* MasonryTwoViewController.m in Sources */,
+				C390BF091DBC9B9A006A922B /* SqliteManager.m in Sources */,
 				C390BE8D1DBC9B9A006A922B /* CollectionViewDataSource.m in Sources */,
 				C390BE8F1DBC9B9A006A922B /* MyCollectionReusableView.m in Sources */,
 				C3EE39BC1D2A06560023BB97 /* TableViewControllerSix.m in Sources */,

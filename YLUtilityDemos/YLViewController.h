@@ -176,6 +176,22 @@
 // 方法52:RemoteNotification 本地通知
 - (void)testRemoteNotification;
 
+// 方法53:NSUserDefaults 使用
+- (void)testNSUserDefaults;
+
+// 方法54:NSCoding 知识点
+- (void)testNSCoding;
+
+// 方法55:SQLite 知识点
+- (void)testSQLite;
+
+// 方法56:FDMB 知识点
+- (void)testFMDB;
+
+// 方法57:CoreData 知识点
+- (void)testCoreData;
+
+
 
 
 
