@@ -84,3 +84,122 @@
        [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_11.png)
 - 方法12:`UITableView` 基本功能:增加,删除,排序,点击等
        [效果图](https://raw.githubusercontent.com/jxjgssylsg/YLResources/master/method_12.gif)
+- 方法12:`UITableView` 基本功能:增加,删除,排序,点击等
+- 方法13:TableView 添加搜索功能 <1> 逻辑相对复杂  
+- 方法14:TableView 搜索功能 <2> 利用 `UISearchController`, 原 `UISearchDisplayController` Deprecated 弃用了
+- 方法15:自定义 TableViewcell,通过xib形式
+- 方法16:自定义 TableViewcell,通过代码形式
+- 方法17:自定义 TableViewcell 侧滑多按钮等功能
+- 方法18:UIScrollView 的基本功能
+- 方法19:通过 UIView 的旋转,放大,移动
+- 方法20:UIScrollView 的循环图片浏览器
+- 方法21: 基本的 navigationController, toolbar
+- (void)creatNavVCOne;
+
+// 方法22: navigationController 各种例子; 透明,下拉放大
+- (void)creatNavVCTwo;
+
+// 方法23: navigationController 手势滑动, 系统方法或 runtime 机制 KVC
+
+- (void)creatNavVCThree;
+
+// 方法24:TabBarController NavigationController 混合使用
+- (void)creatTabbarVCOne;
+
+// 方法25:自定义 TabBar, 利用 KVC
+- (void)creatTabbarVCTwo;
+
+// 方法26:UIWindow,键盘保护
+// 见 #import "AppDelegate.h", [[TestKeyWindow  sharedInstance] show];  密码保护
+
+// 方法27:NSTimer, 去除循环引用
+- (void)testNSTimer;
+
+// 方法28:MasonryOne   ❤️
+- (void)testMasonryOne;
+
+// 方法29:MasonryTwo   ❤️ ❤️
+- (void)testMasonryTwo;
+
+// 方法30:MasonryThree ❤️ ❤️
+- (void)testMasonryThree;
+
+// 方法31:MasonryFour  ❤️ ❤️
+- (void)testMasonryFour;
+
+// 方法32:MasonryFive  ❤️ ❤️ ❤️, textField 跟随着键盘移动~
+- (void)testMasonryFive;
+
+// 方法33:MasonrySix  ❤️ ❤️ ❤️ ❤️, 各种类型例子
+- (void)testMasonrySix;
+
+// 方法34:基本的 CollectionView
+- (void)creatUICollectionViewOne;
+
+// 方法35:日历.课程表 自定义布局 CollectionView
+- (void)creatUICollectionViewTwo;
+
+// 方法36:基础 CollectionView, footer and header, 点击放大,缩小
+- (void)creatUICollectionViewThree;
+
+// 方法37:自定义布局 CollectionView
+- (void)creatUICollectionViewFour;
+
+// 方法38:自定义布局 CollectionView CircleLayout, Decoration View, supplementary View, 插入, 删除等
+- (void)creatUICollectionViewFive;
+
+// 方法39:Pthread
+- (void)testPthread;
+
+// 方法40:NSThread
+- (void)testNSThread;
+
+// 方法41:GCD
+- (void)testGCD;
+
+// 方法42:NSOperation
+- (void)testNSOperation;
+
+// 方法43:Runtime 常用方法 动态添加
+- (void)testRuntime;
+
+// 方法44:Runtime 常用方法
+- (void)testRuntimeTwo;
+
+// 方法45:KVC 常用方法
+- (void)testKVC;
+
+// 方法46:KVO 监听
+- (void)testKVO;
+
+// 方法47:KVO 监听
+- (void)testKVOTwo;
+
+// 方法48:RunLoop
+- (void)testRunLoop;
+
+// 方法49:NotificationCenter 使用
+- (void)testNotificationCenter;
+
+// 方法50:NotificationCenter post 线程转发
+- (void)testNotificationCenterMultiThread;
+
+// 方法51:LocalNotification 本地通知
+- (void)testLocalNotification;
+
+// 方法52:RemoteNotification 本地通知
+- (void)testRemoteNotification;
+
+// 方法53:NSUserDefaults 使用
+- (void)testNSUserDefaults;
+
+// 方法54:NSCoding 知识点
+- (void)testNSCoding;
+
+// 方法55:SQLite 知识点
+- (void)testSQLite;
+
+// 方法56:FDMB 知识点
+- (void)testFMDB;
+
+// 方法57:CoreData 知识点
