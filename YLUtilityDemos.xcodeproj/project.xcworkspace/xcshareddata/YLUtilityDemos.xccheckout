@@ -12,6 +12,8 @@
 	<dict>
 		<key>2AC17F709FDB2989B09948C584FB99596B490A80</key>
 		<string>https://github.com/jxjgssylsg/YLUtilityDemos.git</string>
+		<key>60F8DA5D0AEC7CBCD5378CACB205261136307B1C</key>
+		<string>https://github.com/jxjgssylsg/YLExperimentForOC.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>YLUtilityDemos.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>2AC17F709FDB2989B09948C584FB99596B490A80</key>
 		<string>../..</string>
+		<key>60F8DA5D0AEC7CBCD5378CACB205261136307B1C</key>
+		<string>../../../YLExperimentForOC</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/jxjgssylsg/YLUtilityDemos.git</string>
@@ -28,6 +32,14 @@
 	<string>2AC17F709FDB2989B09948C584FB99596B490A80</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>60F8DA5D0AEC7CBCD5378CACB205261136307B1C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YLExperimentForOC</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
