@@ -98,12 +98,12 @@
     // [self testMasonryThree];
     // [self testMasonryFour];
     // [self testMasonryFive];
-    // [self testMasonrySix];
+     [self testMasonrySix];
     // [self creatUICollectionViewOne];
     // [self creatUICollectionViewTwo];
     // [self creatUICollectionViewThree];
     // [self creatUICollectionViewFour];
-     [self creatUICollectionViewFive];
+    // [self creatUICollectionViewFive];
     // [self testPthread];
     // [self testNSThread];
     // [self testGCD];
@@ -124,7 +124,6 @@
     // [self testFMDB];
     // [self testCoreData];
 
-    
 }
 
 - (void)testCoreData {

@@ -469,7 +469,7 @@
 		C390BF221DBC9B9A006A922B /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
 		C390BF231DBC9B9A006A922B /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
 		C390BF251DBCBC68006A922B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		C390BF271DBCBD8B006A922B /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = ../../YLExperimentForOC/YLExperimentForOC/Macros.h; sourceTree = "<group>"; };
+		C390BF5A1DC0BFA2006A922B /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		C3EE398D1D27C0500023BB97 /* TableViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerOne.h; sourceTree = "<group>"; };
 		C3EE398E1D27C0500023BB97 /* TableViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerOne.m; sourceTree = "<group>"; };
 		C3EE39911D27C4AE0023BB97 /* TableViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerTwo.h; sourceTree = "<group>"; };
@@ -648,7 +648,7 @@
 				C380087E1CC7717D0080E63B /* Main.storyboard */,
 				C38008811CC7717D0080E63B /* Assets.xcassets */,
 				C38008861CC7717D0080E63B /* Info.plist */,
-				C390BF271DBCBD8B006A922B /* Macros.h */,
+				C390BF5A1DC0BFA2006A922B /* Macros.h */,
 			);
 			name = "初始文件";
 			sourceTree = "<group>";
