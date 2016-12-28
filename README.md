@@ -18,8 +18,9 @@
   如果 Demo 涉及内容较少的话就不要创建新的文件了,直接在`YLViewController.h`声明一个方法,在`YLViewController.m`完成后,  
   可以在`YLViewController.m`的`viewDidLoad`方法中调用.结构保持清晰.    
   **例如**:写一个关于`testBoundingRectWithSizeMethods`方法使用的 Demo,设计内容较小,不需要新建文件和类.   
- **具体操作步骤:**  
- **1.在YLViewController.h加入一个方法,写上方法序号.如:** 
+ **具体操作步骤:**    
+ 
+**1.在YLViewController.h加入一个方法,写上方法序号.如:** 
 ```objective-c
 - (void)viewDidLoad {
     [super viewDidLoad];
