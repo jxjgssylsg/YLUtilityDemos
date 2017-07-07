@@ -1,26 +1,25 @@
 
 # YLUtilityDemos  for  iOS
 
-**This Repo 是 iOS 学习开发中经常需要用到的 Demo,希望由浅入深的 Demo 能够将基本的原理和常用方法讲清楚. Demo 源于网络学习整理或自己编写**
+**iOS 学习开发中经常需要用到的原理 Demo,希望 Demo 能够将基本的原理和常用方法描述清楚. Demo 源于网络学习整理或自己编写**
 
 ### 欢迎讨论, 互助成长.
 -----------
 
-#使用方式
-**使用方式:**
+# Usage
 
 1. 在`YLViewController.h`中搜索你需要的找的 Demo 的关键字,找到这个方法的序号就行了.
 2. 在`YLViewController.m`的 'viewDidLoad' 中调用这个方法便可以了.
 
-##原则:  
-
+# Principle
 - **Demo 应具有隔离性,保证学习和使用简单,描述原理，方便学习和扩展使用.**    
   如果 Demo 涉及内容较少的话就不要创建新的文件了,直接在`YLViewController.h`声明一个方法,在`YLViewController.m`完成后,  
   可以在`YLViewController.m`的`viewDidLoad`方法中调用.结构保持清晰.    
   **例如**:写一个关于`testBoundingRectWithSizeMethods`方法使用的 Demo,设计内容较小,不需要新建文件和类.   
- **具体操作步骤:**    
+
+**具体操作步骤:**    
  
-**1.在YLViewController.h加入一个方法,写上方法序号.如:** 
+**1.在 `YLViewController.h` 加入一个方法,写上方法序号.如:** 
 ```objective-c
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -57,7 +56,7 @@
     * 根据 Demo 需要的文件和类放在相对应的文件夹中.保持目录清晰
     * 同样也是在 `YLViewController.h` 中声明一个方法,在 `YLViewController.m` 实现调用其他文件,参照项目中的`方法3`
  
->**NOTE:**参照项目方法 1 和方法 3.☺   
+> **NOTE:** 参照项目方法 1 和方法 3.☺   
 
 # 方法目录
 
